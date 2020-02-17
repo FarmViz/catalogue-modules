@@ -1,2 +1,2 @@
-# laloupe-092019-projet-client
-Site web du projet client
+# FarmViz Site Vitrine
+Site vitrine

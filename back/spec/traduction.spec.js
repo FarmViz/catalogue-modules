@@ -20,7 +20,8 @@ describe(
             navbar_accueil : "DEDxelles",
             navbar_services : "00000jnjknr0",
             navbar_societes : "imagesss",
-            navbar_contact : "brEEDED"
+            navbar_contact : "brEEDED",
+            navbar_language : "bresil"
         };
         beforeAll(
             (done) => {
@@ -64,6 +65,7 @@ describe(
         //                 expect(body.navbar_services).toBe(traduction.navbar_services);
         //                 expect(body.navbar_societes).toBe(traduction.navbar_societes);
         //                 expect(body.navbar_contact).toBe(traduction.navbar_contact);
+        //                 expect(body.navbar_contact).toBe(traduction.navbar_language);
         //                 traduction.id = body.id;
         //                 done();
         //             }
@@ -82,6 +84,7 @@ describe(
         //     traduction.navbar_services = "00000jnjknr0";
         //     traduction.navbar_societes = "imagesss";
         //     traduction.navbar_contact = "brEEDED";
+        //     traduction.navbar_language = "brEEDED";
         //     request(
         //         {
         //             method: "put",
@@ -104,6 +107,7 @@ describe(
         //             expect(body.navbar_services).toBe(traduction.navbar_services);
         //             expect(body.navbar_societes).toBe(traduction.navbar_societes);
         //             expect(body.navbar_contact).toBe(traduction.navbar_contact);
+      //               expect(body.navbar_contact).toBe(traduction.navbar_language);
         //             done();
         //         }
         //     );

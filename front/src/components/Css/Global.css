@@ -1,16 +1,65 @@
-.off-0{display: none;}
-.off-1{width: 8.33%;}
-.off-2{width: 16.66%;}
-.off-3{width: 25%;}
-.off-4{width: 33.33%;}
-.off-5{width: 41.66%;}
-.off-6{width: 50%;}
-.off-7{width: 58.33%;}
-.off-8{width: 66.66%;}
-.off-9{width: 75%;}
-.off-10{width: 83.33%;}
-.off-11{width: 91.66%;}
-.off-12{width: 100%;}
+
+
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+* {
+    background-color: #f7fcfb;
+}
+
+h1 {
+    font-family: "Arial Black";
+    font-size:36px;
+}
+
+h2 {
+    font-family: "Arial Bold";
+    font-size:30px;
+
+}
+
+h3 {
+    font-family: "Arial Bold";
+    font-size:24px;
+}
+
+h4 {
+    font-family: "Arial Bold";
+    font-size:20px;
+}
+
+.texte18 {
+    font-family: "Arial Regular";
+    font-size:18px;
+
+}
+
+.texte14 {
+    font-family: "Arial Regular";
+    font-size:14px;
+
+}
+
+.texte24italic {
+    font-family: "Arial";
+    font-size:24px;
+    font-style: italic;
+
+}
+
+.texte10 {
+    font-family: "Arial Regular";
+    font-size:10px;
+
+}
+.original_price_container {
+    max-width:30px;
+    /* position:absolute; */
+}
+
 
 
 .black {
@@ -41,6 +90,10 @@
     color: #f7fcfb;
 }
 
+.white {
+    color: white;
+}
+
 .farmviz{
     font-size: ;
     font-weight: ;
@@ -52,8 +105,76 @@
     font-weight: ;
 }
 
+.blue-background {
+    background-color: #3293ad ;
+}
 
+.greenDiv {
+    background-color: #48a24e;
+    color:white
+}
 
+.darkGreyDiv {
+    background-color: #555555;
+    color:white;
+}
+
+.greyDiv {
+    background-color: #a7a7a7;
+}
+
+.blackDiv {
+    background-color: #020803;
+    color: white;
+}
+
+.blueDiv {
+    background-color: #3293ad;
+    color: white;
+}
+
+.lightBlueDiv {
+    background-color: #f7fcfb;
+}
+
+.yellowDiv {
+    background-color: #FFFF00;
+}
+.orangeDiv {
+    background-color: #f6a623;
+}
+
+input {
+    border-radius: 5px;
+    background: white;
+
+}
+
+button {
+    border-radius: 5px;
+    background: #f6a623;
+    color:white;
+}
+
+.socialNetwork {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.off-0{display: none;}
+.off-1{width: 8.33%;}
+.off-2{width: 16.66%;}
+.off-3{width: 25%;}
+.off-4{width: 33.33%;}
+.off-5{width: 41.66%;}
+.off-6{width: 50%;}
+.off-7{width: 58.33%;}
+.off-8{width: 66.66%;}
+.off-9{width: 75%;}
+.off-10{width: 83.33%;}
+.off-11{width: 91.66%;}
+.off-12{width: 100%;}
 
 @media screen and (max-width:420px) {
     .mob-0{display: none;}

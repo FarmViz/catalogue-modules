@@ -50,7 +50,7 @@ router.post("/trad_accueil", (req, res) => {
        navbar_societes,
        navbar_contact,
        navbar_language,
-       offre__titre,
+       offre_titre,
        offre_sous_titre,
        offre_texte,
        offre_texte1
@@ -65,7 +65,19 @@ router.post("/trad_accueil", (req, res) => {
        offre_decouvrir,
        offre_precommander,
        offre_texte_condition,
-       offre_lien_condition
+       offre_lien_condition,
+       footer_titre,
+       footer_telephone,
+       footer_email,
+       footer_accueil,
+       footer_services,
+       footer_societe,
+       footer_contact,
+       footer_newsletter_titre,
+       footer_newsletter_texte, 
+       footer_newsletter_placeholder,
+       footer_reseau,
+       footer_banniere
         ) VALUES (
             "${traduction.banniere_titre}", 
             "${traduction.banniere_texte}",
@@ -93,6 +105,18 @@ router.post("/trad_accueil", (req, res) => {
             "${traduction.offre_precommander}", 
             "${traduction.offre_texte_condition}",
             "${traduction.offre_lien_condition}",
+            "${traduction.footer_titre}",
+            "${traduction.footer_telephone}", 
+            "${traduction.footer_email}",
+            "${traduction.footer_accueil}",
+            "${traduction.footer_service}",
+            "${traduction.footer_societe}", 
+            "${traduction.footer_contact}",
+            "${traduction.footer_newsletter_titre}",
+            "${traduction.footer_newsletter_texte}", 
+            "${traduction.footer_newsletter_placeholder}",
+            "${traduction.footer_reseau}",
+            "${traduction.footer_banniere}",
         )`;
     connection.query(sql, (error, results, fields) => {
         if (error) {

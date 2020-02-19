@@ -9,37 +9,37 @@ router.use(parser.urlencoded({
     extended: true
 }));
 
-//récupération de l'intégralité de la Table traduction
-router.get('/traduction', (req, res) => {
-    connection.query('SELECT * FROM traduction',
+//récupération de l'intégralité de la Table trad_accueil
+router.get('/trad_accueil', (req, res) => {
+    connection.query('SELECT * FROM trad_accueil',
         (err, results) => {
             if (err) {
                 console.log('Dommage!');
             } else {
-                console.log('Table traduction recupéré avec succés');
+                console.log('Table trad_accueil recupéré avec succés');
                 res.json(results);
             }
         });
 });
-// selection d'une traduction suivant id
-router.get("/traduction/:id", (req, res) => {
-    const idTraduction = parseInt(req.params.id);
-    const sql = "SELECT * FROM traduction WHERE id = ? ";
-    connection.query(sql, idTraduction, (error, results, fields) => {
+// selection d'une trad_accueil suivant id
+router.get("/trad_accueil/:id", (req, res) => {
+    const idTrad_accueil = parseInt(req.params.id);
+    const sql = "SELECT * FROM trad_accueil WHERE id = ? ";
+    connection.query(sql, idTrad_accueil, (error, results, fields) => {
         if (error) {
             res.status(501).send("couldn't get blog");
             console.log('Dommage!');
         } else {
-            console.log("selection d'une traduction suivant id recupéré avec succés");
+            console.log("selection d'une trad_accueil suivant id recupéré avec succés");
             res.json(results);
         }
     });
 });
 
 //creation d'une traduction
-router.post("/traduction", (req, res) => {
+router.post("/trad_accueil", (req, res) => {
     const traduction = req.body;
-    const sql = `INSERT INTO traduction (
+    const sql = `INSERT INTO trad_accueil (
        banniere_titre,
        banniere_texte,
        banniere_telephone,
@@ -49,6 +49,7 @@ router.post("/traduction", (req, res) => {
        navbar_services,
        navbar_societes,
        navbar_contact,
+       navbar_language,
        offre__titre,
        offre_sous_titre,
        offre_texte,
@@ -75,6 +76,7 @@ router.post("/traduction", (req, res) => {
             "${traduction.navbar_services}", 
             "${traduction.navbar_societes}",
             "${traduction.navbar_contact}",
+            "${traduction.navbar_language}",
             "${traduction.offre_titre}", 
             "${traduction.offre_sous_titre}",
             "${traduction.offre_texte}",
@@ -94,47 +96,47 @@ router.post("/traduction", (req, res) => {
         )`;
     connection.query(sql, (error, results, fields) => {
         if (error) {
-            res.status(501).send("couldn't post traduction" + error);
-            console.log('Erreur de post traduction : ' + error.message);
+            res.status(501).send("couldn't post trad_accueil" + error);
+            console.log('Erreur de post trad_accueil : ' + error.message);
         } else {
             req.body.id = results.insertId;
             res.json(req.body);
-            console.log("creation d'une traduction avec succés");
+            console.log("creation d'une trad_accueil avec succés");
         }
     });
 });
 
-// Modification d'une traduction
-router.put("/traduction/:id", (req, res) => {
-    const idTraduction= req.params.id;
-    const traduction = req.body;
+// Modification d'une trad_accueil
+router.put("/trad_accueil/:id", (req, res) => {
+    const idTrad_accueil= req.params.id;
+    const trad = req.body;
     connection.query(
-        "UPDATE traduction SET ? WHERE id=?",
-        [traduction, idTraduction],
+        "UPDATE trad_accueil SET ? WHERE id=?",
+        [trad, idTrad_accueil],
         (error, results, fields) => {
             if (error) {
-                res.status(501).send("couldn't put traduction" + error);
+                res.status(501).send("couldn't put trad_accueil" + error);
                 console.log('Dommage!');
             } else {
                 res.json(req.body);
-                console.log("update d'une traduction avec succés");
+                console.log("update d'une trad_accueil avec succés");
             }
         }
     );
 });
-//Suppression d'une traduction
-router.delete("/traduction/:id", (req, res) => {
-    const idTraduction = req.params.id;
+//Suppression d'une trad_accueil
+router.delete("/trad_accueil/:id", (req, res) => {
+    const idTrad_accueil = req.params.id;
     connection.query(
-        "DELETE FROM traduction WHERE id= ?",
-        [idTraduction],
+        "DELETE FROM trad_accueil WHERE id= ?",
+        [idTrad_accueil],
         (error, results, fields) => {
             if (error) {
-                res.status(501).send("couldn't delete traduction" + error);
+                res.status(501).send("couldn't delete trad_accueil" + error);
                 console.log('Dommage!');
             } else {
                 res.json(idTraduction);
-                console.log("suppression d'une traduction avec succés");
+                console.log("suppression d'une trad_accueil avec succés");
             }
         }
     );

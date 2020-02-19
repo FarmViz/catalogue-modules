@@ -9,7 +9,7 @@ const recrutement = require("./routes/recrutement");
 const contact = require("./routes/contact");
 const uploadrecru = require("./routes/uploadrecru");
 const devis = require("./routes/devis");
-const traduction = require("./routes/traduction");
+const trad_accueil = require("./routes/trad_accueil");
 const newsletter = require("./routes/newsletter");
 
 const jwtsecret = '$Farmviz2020$';
@@ -30,7 +30,7 @@ app.use("/", recrutement);
 app.use("/", contact);
 app.use("/", uploadrecru);
 app.use("/", devis);
-app.use("/", traduction);
+app.use("/", trad_accueil);
 app.use("/", newsletter);
 
 // home page

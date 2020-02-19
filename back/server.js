@@ -9,6 +9,9 @@ const recrutement = require("./routes/recrutement");
 const contact = require("./routes/contact");
 const uploadrecru = require("./routes/uploadrecru");
 const devis = require("./routes/devis");
+const trad_accueil = require("./routes/trad_accueil");
+const newsletter = require("./routes/newsletter");
+const news_email = require("./routes/news_email");
 
 const jwtsecret = '$Farmviz2020$';
 const jwt = require('jsonwebtoken');
@@ -28,7 +31,9 @@ app.use("/", recrutement);
 app.use("/", contact);
 app.use("/", uploadrecru);
 app.use("/", devis);
-
+app.use("/", trad_accueil);
+app.use("/", newsletter);
+app.use("/", news_email);
 
 // home page
 app.get("/", 

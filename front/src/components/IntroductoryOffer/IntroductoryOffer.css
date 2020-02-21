@@ -1,29 +1,58 @@
-/* .IntroductoryOfferContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.IntroductoryOfferContainer {
+    
 
 }
+
+
+.textAlignRight {
+    text-align: right;
+}
+
+.test {
+    align-self: flex-end;
+}
+
 
 .IntroductoryOfferTitle {
     font-family: "Arial Black";
-    font-size: 10vw;
+    font-size: 3vw;
+    color: yellow;
+    text-align: right;
 }
 
-.IntroductoryOfferOriginalPrice {
+.optionList {
+    list-style-type: none;
+    background-color: transparent;
+}
+.optionList li {
+    background-color: transparent;
+}
+
+.packOption {
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+.normalPrice {
+    position:absolute;
     font-family: "Arial";
     font-weight: bold;
-    z-index: -1;
+    background-color: transparent;
+}
+
+.deletedText {
+    position: relative;
+    background-color: transparent;
+}
+
+.rightAlign {
+    
+    justify-items: flex-end;
+    
+
 }
 
 .discover {
     text-decoration: underline;
     color: white;
 }
-.offerCheckbox {
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    background-color:#F6A623;
-} */

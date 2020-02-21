@@ -7,6 +7,7 @@ import Upload from './components/Upload/UploadFile';
 import './components/Css/Reset.css';
 import Test from './components/test';
 import IntroductoryOffer from './components/IntroductoryOffer/IntroductoryOffer';
+import FooterLinks from './components/Footer/FooterLinks'
 
 class App extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ render() {
   return (
     <>
       <IntroductoryOffer />
+      <FooterLinks />
       <Switch>
           {/* <Route exact path="/" component={Accueil} /> */}
           {/* <Route exact path="/devis" component={Devis} /> */}

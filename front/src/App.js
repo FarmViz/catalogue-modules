@@ -5,7 +5,7 @@ import Recrutement from './components/Email/Recrutement/Recrutement';
 import Contact from "./components/Email/Contact/Contact";
 import Upload from './components/Upload/UploadFile';
 import './components/Css/Reset.css';
-import Test from './components/test';
+import IntroductoryOffer from './components/IntroductoryOffer/IntroductoryOffer';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,9 +19,8 @@ class App extends React.Component {
 render() {
   return (
     <>
-      <Test />
       <Switch>
-          {/* <Route exact path="/" component={Accueil} /> */}
+           <Route exact path="/" component={IntroductoryOffer} /> 
           {/* <Route exact path="/devis" component={Devis} /> */}
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/recrutement" component={Recrutement} />

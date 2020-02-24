@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Recaptcha from 'react-google-invisible-recaptcha';
-import Navbar from "../../Navbar/Navbar";
-import Footer from '../../Footer/Footer';
 import './Contact.css';
 const SERVER_ADDRESS = process.env.REACT_APP_SERVER_ADDRESS;
 
@@ -92,7 +90,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="sticky-wrap">
-                <Navbar />
+              
                 <div className="formulaire">
                     <form className="container align-containner-recrutement" onSubmit={this.handleSubmit}>
                         <div className="max-wi">
@@ -149,7 +147,7 @@ class Contact extends Component {
                     </form>
                 </div>
                 <div className="sticky-footer">
-                    <Footer />
+                  
                 </div>
             </div >
         )

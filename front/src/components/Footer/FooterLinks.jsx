@@ -40,4 +40,4 @@ class FooterLinks extends Component {
     }
 }
 
-export default FooterLinks
+export default FooterLinks;

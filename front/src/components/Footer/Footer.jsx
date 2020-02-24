@@ -9,17 +9,14 @@ import FooterContact from "./FooterContact";
 import FooterSocialNetwork from "./FooterSocialNetwork";
 const SERVER_ADDRESS = process.env.REACT_APP_SERVER_ADDRESS;
 
-
 class Footer extends React.Component {
  
-   // Fin envoie email newsletter
     render() {
         return (
-            //  (this.state.load &&
             <div className="dsk-12 tab-12 mob-12 row ">
 
                 <div className="dsk-12 tab-12 mob-12 row alignCenter blueDiv">
-
+                     {/* section 1  Contact*/}
                     <FooterContact />
 
                     {/* section 2  liens page*/}

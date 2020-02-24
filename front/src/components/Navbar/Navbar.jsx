@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar.css";
+import "./Navbar.css";
 import '../Css/Grid.css';
 import '../Css/Global.css';
 import TopBanner from './TopBanner.jsx';

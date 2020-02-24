@@ -1,5 +1,4 @@
 import React from "react";
-// import './Footer.css'
 import '../Css/Grid.css';
 import '../Css/Global.css';
 import FooterNewsLetter from "./FooterNewsLetter";

@@ -13,6 +13,46 @@
 }
 
 
+
+.txt{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.stretchitem {
+  justify-items: stretch;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.center{
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+  align-content:center;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexend {
+  justify-content: flex-end;
+}
+
 /* media queries */
 
 @media screen and (max-width:420px) {

@@ -1,0 +1,18 @@
+
+.footer_newsletter_titre, .footer__newsletter_text{
+text-align: center;
+}
+.input_newsletter{
+    width: 92%;
+}
+.newsletter_input_button{
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:420px) {
+      /* .footer_corps{
+        display: flex;
+        flex-direction: column;
+    } */
+  }

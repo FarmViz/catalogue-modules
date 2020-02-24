@@ -14,27 +14,27 @@ class FooterLinks extends Component {
             <>
 
                 {/* affichage bureau et tablette */}
-                <div className="dsk-3 tab-3 mob-0 column FooterLinksContainer">
+                <section className="dsk-3 tab-3 mob-0 column FooterLinksContainer">
 
                     {/* div d'alignement horizontal et vertical des liens  */}
-                    <ul className=" off-dsk-3 off-tab-1  FooterLinksPadding">
+                    <ul className=" column txt">
                         <a><li className="FooterLinks texte18">Accueil</li></a>
                         <a><li className="FooterLinks texte18">Services</li></a>
                         <a><li className="FooterLinks texte18" >Société</li></a>
                         <a><li className="FooterLinks texte18">Contact</li></a>
                     </ul>
 
-                </div>
+                </section>
 
                 {/* affichage mobile */}
-                <div className="mob-12 column FooterLinksContainer">
-                <ul className="dsk-0 tab-0 mob-12 row FooterLinksPadding">
-                    <a><li className="mobFooterLinks texte18">Accueil</li></a>
-                    <a><li className="mobFooterLinks texte18">Services</li></a>
-                   <a><li className="mobFooterLinks texte18" >Société</li></a>
-                    <a><li className="mobFooterLinks texte18">Contact</li></a>
-                </ul>
-                </div>
+                <section className="mob-12 column FooterLinksContainer">
+                    <ul className="dsk-0 tab-0 mob-12 row FooterLinksPadding">
+                        <a><li className="mobFooterLinks texte18">Accueil</li></a>
+                        <a><li className="mobFooterLinks texte18">Services</li></a>
+                        <a><li className="mobFooterLinks texte18" >Société</li></a>
+                        <a><li className="mobFooterLinks texte18">Contact</li></a>
+                    </ul>
+                </section>
             </>
         )
     }

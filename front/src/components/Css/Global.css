@@ -4,13 +4,13 @@
 
 * {
     --blue: #3293ad;
-    --orange: #fd7e14;
+    --orange: #f6a623;
     --yellow: #FFFF00;
     --gray: #a7a7a7;
     --gray-dark: #555555;
     --green: #48a24e;
     --light-blue:#f7fcfb;
-    background-color: #f7fcfb;
+    
 }
 
 
@@ -23,38 +23,40 @@ h1, h2, h3, h4 {
     
 }
 
-h1 {
+body h1 {
     font-family: "Arial Black";
-    font-size:36px;
+    font-size:4vw;
     background-color: transparent;
 }
 
-h2 {
+body h2 {
     font-family: "Arial Bold";
     font-size:30px;
     background-color: transparent;
 
 }
 
-h3 {
+body h3 {
     font-family: "Arial Bold";
     font-size:24px;
     background-color: transparent;
 }
 
-h4 {
+body h4 {
     font-family: "Arial Bold";
     font-size:20px;
     background-color: transparent;
 }
 
-p {
+body p {
   background-color: transparent;
 }
 
+
+
 .texte18 {
     font-family: "Arial Regular";
-    font-size:18px;
+    font-size:2vw;
     background-color: transparent;
 
 }
@@ -81,12 +83,28 @@ p {
 
 }
 
+.h4size {
+    font-size: 16px;
+}
+@media screen and (min-width: 600px) {
+    .h4size {
+        font-size: calc(16px + 16 * (100vw - 600px) / 600);
+   }
+}
+@media screen and (min-width: 1200px) {
+    .h4size {
+        font-size: 32px;
+   }
+}
+
+
 /* balises utiles */
 
 a {
     color: white;
     text-decoration: none;
     background-color: transparent;
+    font-family: "Arial Regular";
   }
   
   a:hover {
@@ -156,3 +174,22 @@ button {
     border-radius: 5px;
 }
 
+
+.paddingBottomBlockText {
+    padding-bottom: 0.2em;
+}
+
+
+.paddingh2 {
+    padding: 0.6em 0;
+}
+
+.verticalMarginAuto {
+    margin: auto 0;
+}
+
+@media screen and (max-width:420px) {
+    .texte18 {
+        font-size: 5vw;
+    }
+}

@@ -1,13 +1,15 @@
 import React from 'react';
-import { Switch, Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 // import Devis from './components/email/Devis';
 import Recrutement from './components/Email/Recrutement/Recrutement';
 import Contact from "./components/Email/Contact/Contact";
 import Upload from './components/Upload/UploadFile';
 import './components/Css/Reset.css';
-import Test from './components/test';
+import './components/Css/Grid.css';
+import './components/Css/Global.css';
 import IntroductoryOffer from './components/IntroductoryOffer/IntroductoryOffer';
-import FooterLinks from './components/Footer/FooterLinks'
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,20 +20,21 @@ class App extends React.Component {
     };
   }
 
-render() {
-  return (
-    <>
-      <IntroductoryOffer />
-      <FooterLinks />
-      <Switch>
+  render() {
+    return (
+      <>
+        <Navbar />
+        <IntroductoryOffer />
+        <Footer />
+        <Switch>
           {/* <Route exact path="/" component={Accueil} /> */}
           {/* <Route exact path="/devis" component={Devis} /> */}
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/recrutement" component={Recrutement} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-    </>
-  );
-}
+      </>
+    );
+  }
 }
 export default App;

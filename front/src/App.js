@@ -24,15 +24,17 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        <IntroductoryOffer />
-        <Footer />
+        
+       
         <Switch>
-          {/* <Route exact path="/" component={Accueil} /> */}
+          <Route exact path="/" component={IntroductoryOffer} />
           {/* <Route exact path="/devis" component={Devis} /> */}
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/recrutement" component={Recrutement} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+
+        <Footer />
       </>
     );
   }

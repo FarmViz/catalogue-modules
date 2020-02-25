@@ -5,8 +5,6 @@ import './FooterNewsLetter.css';
 
 class FooterNewsLetter extends Component {
 
-
-
     render() {
         return (
 
@@ -37,7 +35,3 @@ class FooterNewsLetter extends Component {
 
 
 export default FooterNewsLetter;
-
-
-
-

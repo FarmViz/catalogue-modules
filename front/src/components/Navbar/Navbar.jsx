@@ -23,17 +23,16 @@ class Navbar extends React.Component {
                     {/*conteneur du menu dsk et tab */}
                     <div className=" dsk-9 tab-9 mob-0 flex texte18">
                         <ul className=" flex  alignCenter justify-evenly  menuList verticalMarginAuto">
-                            <li className="">Accueil</li>
-                            <li className="">Services</li>
-                            <li className="">Société</li>
-                            <li className="">Contact</li>
+                            <a href="/"><li className="">Accueil</li></a>
+                            <a href="/services"><li className="">Services</li></a>
+                            <a href="/societe"><li className="">Société</li></a>
+                            <a href="/contact"><li className="">Contact</li></a>
                             {/* <select className="selectLanguage column center alignCenter">
                                 <option value="fr"> FR</option>
                                 <option value="en">  EN</option>
                             </select> */}
 
                         </ul>
-
 
                     </div>
 
@@ -44,16 +43,14 @@ class Navbar extends React.Component {
                         <ul className="mob-12 menu ulburger absolute">
                             <input type="checkbox" id="menu-checkbox" className="menu-checkbox" />
                             <label htmlFor="menu-checkbox" className="menu-toggle cross">❌</label>
-                            <li>Accueil</li>
-                            <li>Services</li>
-                            <li>Société</li>
-                            <li>Contact</li>
+                               <a href="/"><li>Accueil</li></a>
+                               <a href="/services"><li>Services</li></a>
+                               <a href="/societe"><li>Société</li></a>
+                               <a href="/contact"><li>Contact</li></a>
 
                         </ul>
                     </div>
 
-
-                    
                 </div>
 
             </>

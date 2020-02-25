@@ -1,58 +1,14 @@
-.IntroductoryOfferContainer {
+.img-fond-blé{
+    height: 500px;
+
+}
+
+.height-parent{
+    height: 600px;
     
-
 }
 
+.height-offre-txt{
+    height: 500px;
 
-.textAlignRight {
-    text-align: right;
-}
-
-.test {
-    align-self: flex-end;
-}
-
-
-.IntroductoryOfferTitle {
-    font-family: "Arial Black";
-    font-size: 3vw;
-    color: yellow;
-    text-align: right;
-}
-
-.optionList {
-    list-style-type: none;
-    background-color: transparent;
-}
-.optionList li {
-    background-color: transparent;
-}
-
-.packOption {
-    margin-bottom: 0;
-    padding: 0.5em 1em;
-}
-
-.normalPrice {
-    position:absolute;
-    font-family: "Arial";
-    font-weight: bold;
-    background-color: transparent;
-}
-
-.deletedText {
-    position: relative;
-    background-color: transparent;
-}
-
-.rightAlign {
-    
-    justify-items: flex-end;
-    
-
-}
-
-.discover {
-    text-decoration: underline;
-    color: white;
 }

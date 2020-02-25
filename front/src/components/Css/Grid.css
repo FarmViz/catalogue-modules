@@ -1,4 +1,3 @@
-
 /* flex box */
 
 .row {
@@ -11,8 +10,6 @@
     flex-direction: column;
     
 }
-
-
 
 .txt{
   align-items: center;
@@ -84,7 +81,6 @@
     .mob-10{width: 83.33%;}
     .mob-11{width: 91.66%;}
     .mob-12{width: 100%;}
-
     
 }
 

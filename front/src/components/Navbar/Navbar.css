@@ -1,0 +1,89 @@
+
+.logo{
+  color:#48a24e;
+  font-weight: 400;
+  align-self: center;
+
+}
+
+.sas {
+  font-size: 0.3em;
+}
+
+.menuList {
+  list-style: none;
+  padding-left: 0rem;
+ 
+}
+
+
+
+.selectLanguage {
+  background: transparent;
+  border: none;
+  width: 4vw;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-checkbox:checked ~ .menu {
+  display: block; 
+}
+
+.menu-checkbox {
+  opacity: 0;	
+  top: -1200px;
+  position:absolute;
+  
+}
+
+.menu-toggle {
+  padding: 0.3em 0.8em;
+  font-size: 3em;
+  cursor: pointer;
+  position: relative;
+}
+
+.ulburger {
+  background-color: lightgray;
+  margin-top:17%;
+  position: absolute;
+  height: 45vh;
+  width: 100vw;
+  right: 0vw;
+  top: 4.2vh;
+ 
+}
+
+.cross {
+  color: #f6a623;
+  top: 4vw;
+  font-size: 10vw;
+}
+
+.ulburger li {
+ 
+  padding:0.5em 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+@media screen and (max-width:420px) {
+  .logo {
+      font-size: 8.5vw;
+      padding-left: 5vw;
+  }
+
+        
+}

@@ -16,7 +16,7 @@ class IntroductoryOffer extends React.Component {
                 <div className="dsk-12 tab-12 mob-12 dsk-fix row">                  
 
                     <div className="dsk-5 tab-5 mob-12 flex height-parent">
-                        <img className="img-fond-blé dsk-12 tab-12 mob-12" alt="fond" src="../../images/fond-blé.jpeg" />
+                        <img className="img-fond-blé dsk-12 tab-12 mob-12" alt="fond" src="../../images/FarmViz.png" />
 
                     </div>
 

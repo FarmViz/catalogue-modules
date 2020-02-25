@@ -1,3 +1,9 @@
+/* classes relatives aux textes */
+
+body p {
+    font-family: 'Arial';
+    font-size: 12px;
+}
 
 /* --------------------- fond et couleurs ------------------------*/
 

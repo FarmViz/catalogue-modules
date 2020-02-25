@@ -1,0 +1,127 @@
+
+/*------------------------------------------------ media queries mobile ------------------------------------------------ */
+
+@media screen and (max-width:420px) {
+
+  .off-mob-0 {margin-left: 4.16%;  }
+  .off-mob-1 {margin-left: 8.333333%;  }
+  .off-mob-2 {margin-left: 16.666667%;  }
+  .off-mob-3 {margin-left: 25%;}
+  .off-mob-4 {margin-left: 33.333333%;} 
+  .off-mob-5 {margin-left: 41.666667%;}
+  .off-mob-6 {margin-left: 50%;} 
+  .off-mob-7 {margin-left: 58.333333%;}
+  .off-mob-8 {margin-left: 66.666667%;} 
+  .off-mob-9 {margin-left: 75%;} 
+  .off-mob-10 {margin-left: 83.333333%;}
+  .off-mob-11 {margin-left: 91.666667%;}
+
+
+    .mob-0{display: none;}
+    .mob-1{width: 8.33%;}
+    .mob-2{width: 16.66%;}
+    .mob-3{width: 25%;}
+    .mob-4{width: 33.33%;}
+    .mob-5{width: 41.66%;}
+    .mob-6{width: 50%;}
+    .mob-7{width: 58.33%;}
+    .mob-8{width: 66.66%;}
+    .mob-9{width: 75%;}
+    .mob-10{width: 83.33%;}
+    .mob-11{width: 91.66%;}
+    .mob-12{width: 100%;}
+    
+}
+
+/*------------------------------------------------ media queries mobile ------------------------------------------------ */
+
+
+
+
+
+
+/*------------------------------------------------ media queries tablette ------------------------------------------------ */
+
+@media screen and (min-width:421px) and (max-width:1024px) {
+
+  .off-tab-0 {margin-left: 4.16%;  }
+  .off-tab-1 {margin-left: 8.333333%;  }
+  .off-tab-2 {margin-left: 16.666667%;  }
+  .off-tab-3 {margin-left: 25%;}
+  .off-tab-4 {margin-left: 33.333333%;} 
+  .off-tab-5 {margin-left: 41.666667%;}
+  .off-tab-6 {margin-left: 50%;} 
+  .off-tab-7 {margin-left: 58.333333%;}
+  .off-tab-8 {margin-left: 66.666667%;} 
+  .off-tab-9 {margin-left: 75%;} 
+  .off-tab-10 {margin-left: 83.333333%;}
+  .off-tab-11 {margin-left: 91.666667%;}
+
+
+    .tab-0{display: none;}
+    .tab-1{width: 8.33%;}
+    .tab-2{width: 16.66%;}
+    .tab-3{width: 25%;}
+    .tab-4{width: 33.33%;}
+    .tab-5{width: 41.66%;}
+    .tab-6{width: 50%;}
+    .tab-7{width: 58.33%;}
+    .tab-8{width: 66.66%;}
+    .tab-9{width: 75%;}
+    .tab-10{width: 83.33%;}
+    .tab-11{width: 91.66%;}
+    .tab-12{width: 100%;}
+
+
+
+
+
+
+}
+
+/*------------------------------------------------ media queries tablette ------------------------------------------------ */
+
+
+
+
+/*------------------------------------------------ media queries dsk ------------------------------------------------ */
+
+@media screen and (min-width:1025px) {
+  
+  .off-dsk-0 {margin-left: 4.16%;  }
+  .off-dsk-1 {margin-left: 8.333333%;  }
+  .off-dsk-2 {margin-left: 16.666667%;  }
+  .off-dsk-3 {margin-left: 25%;}
+  .off-dsk-4 {margin-left: 33.333333%;} 
+  .off-dsk-5 {margin-left: 41.666667%;}
+  .off-dsk-6 {margin-left: 50%;} 
+  .off-dsk-7 {margin-left: 58.333333%;}
+  .off-dsk-8 {margin-left: 66.666667%;} 
+  .off-dsk-9 {margin-left: 75%;} 
+  .off-dsk-10 {margin-left: 83.333333%;}
+  .off-dsk-11 {margin-left: 91.666667%;}
+  
+
+
+    .dsk-0{display: none;}
+    .dsk-1{width: 8.33%;}
+    .dsk-2{width: 16.66%;}
+    .dsk-3{width: 25%;}
+    .dsk-4{width: 33.33%;}
+    .dsk-5{width: 41.66%;}
+    .dsk-6{width: 50%;}
+    .dsk-7{width: 58.33%;}
+    .dsk-8{width: 66.66%;}
+    .dsk-9{width: 75%;}
+    .dsk-10{width: 83.33%;}
+    .dsk-11{width: 91.66%;}
+    .dsk-12{width: 100%;}
+
+
+
+
+}
+
+
+
+/*------------------------------------------------ media queries dsk ------------------------------------------------ */

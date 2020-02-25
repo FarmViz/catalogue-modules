@@ -1,0 +1,70 @@
+
+/* --------------------- fond et couleurs ------------------------*/
+
+.blue-background {
+    background-color: #3293ad ;
+}
+
+.greenDiv {
+    background-color: #48a24e;
+    color:white
+}
+
+.darkGreyDiv {
+    background-color: #555555;
+    color:white;
+}
+
+.greyDiv {
+    background-color: #a7a7a7;
+}
+
+.blackDiv {
+    background-color: #020803;
+    color: white;
+}
+
+.blueDiv {
+    background-color: #3293ad;
+    color: white;
+}
+
+.lightBlueDiv {
+    background-color: #f7fcfb;
+}
+
+.yellowDiv {
+    background-color: #FFFF00;
+}
+.orangeDiv {
+    background-color: #f6a623;
+}
+
+/* --------------------- fond et couleurs ------------------------*/
+
+
+
+
+
+/* --------------------- flex box (responsive) ------------------------*/
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.center{
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+  align-content:center;
+}
+
+.flex {
+  display: flex;
+}
+
+/* --------------------- flex box (responsive) ------------------------*/
+

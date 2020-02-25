@@ -1,1 +1,21 @@
-xx
+  /*          media mobile         */
+@media screen and (max-width:420px) {
+    
+.droite{
+    text-align: center;
+}
+}
+
+     /*           media tablette       */
+@media screen and (min-width:421px) and (max-width:1024px) {
+    .droite{
+        text-align: right;
+    }
+}
+
+    /*           media desktop         */
+@media screen and (min-width:1025px) {
+    .droite{
+        text-align: right;
+    }
+}

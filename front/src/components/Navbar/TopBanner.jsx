@@ -13,8 +13,8 @@ class TopBanner extends Component {
             <>
                 <div className="dsk-12 tab-12 mob-12 row txt">
                    
-                   <div className="dsk-6 tab-6 mob-12 greenDiv second punchline"><p>La technologie au service de l'environnement</p></div>
-                   <div className="dsk-6 tab-6 mob-12 greenDiv third serviceClient"><p>Service Client 6j/7 de 7h à 21h 02 23 23 52 18</p></div>
+                   <div className="dsk-6 tab-6 mob-12 greenDiv second punchline"><h4>La technologie au service de l'environnement</h4></div>
+                   <div className="dsk-6 tab-6 mob-12 greenDiv third serviceClient"><h4>Service Client 6j/7 de 7h à 21h 02 23 23 52 18</h4></div>
                </div>
 
 

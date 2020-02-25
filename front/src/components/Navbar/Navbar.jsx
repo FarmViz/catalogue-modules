@@ -1,8 +1,10 @@
 import React from "react";
-import "./Navbar.css";
+ 
+import "./NavBar.css";
 import '../Css/Grid.css';
 import '../Css/Global.css';
 import TopBanner from './TopBanner.jsx';
+
 
 class Navbar extends React.Component {
 

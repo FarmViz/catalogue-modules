@@ -9,8 +9,8 @@ class TopBannerRight extends React.Component {
     return (
      <div className="topbannerleft droite border dsk-6 tab-12 mob-12 " >
        <div>
-          <a className="center droite couleur" >Service client 6J/7 de 7h à 21h</a>
-          <a className="center texte14b couleur" href="tel:+33223235210"> ☎ 02 24 24 52 10</a>
+          <a className="center droite " >Service client 6J/7 de 7h à 21h</a>
+          <a className="center texte14b " href="tel:+33223235210"> ☎ 02 24 24 52 10</a>
        </div>
     </div>
     );

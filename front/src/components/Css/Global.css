@@ -7,7 +7,7 @@
 
 .greenDiv {
     background-color: #48a24e;
-    color:white
+    color:white;
 }
 
 .darkGreyDiv {
@@ -64,6 +64,11 @@
 
 .flex {
   display: flex;
+}
+
+.max-width{
+    width: 1024px;
+    max-width: 1024px;
 }
 
 /* --------------------- flex box (responsive) ------------------------*/

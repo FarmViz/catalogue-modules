@@ -6,6 +6,8 @@ import Contact from "./components/Email/Contact/Contact";
 import Upload from './components/Upload/UploadFile';
 import './components/Css/Reset.css';
 import IntroductoryOffer from './components/IntroductoryOffer/IntroductoryOffer';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,6 +21,7 @@ class App extends React.Component {
 render() {
   return (
     <>
+    <Navbar/>
       <Switch>
            <Route exact path="/" component={IntroductoryOffer} /> 
           {/* <Route exact path="/devis" component={Devis} /> */}
@@ -26,6 +29,7 @@ render() {
           <Route exact path="/recrutement" component={Recrutement} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer/>
     </>
   );
 }

@@ -1,117 +1,5 @@
-/*définiton des règles de design du site*/
 
-* {
-    --blue: #3293ad;
-    --orange: #f6a623;
-    --yellow: #FFFF00;
-    --gray: #a7a7a7;
-    --gray-dark: #555555;
-    --green: #48a24e;
-    --light-blue:#f7fcfb;
-    
-}
-
-
-/*définition des polices et format de police des diférents titres et textes*/
-
-h1, h2, h3, h4 {
-    text-align: center;
-    
-}
-
-body h1 {
-    font-family: "Arial Black";
-    font-size:4vw;
-    background-color: transparent;
-}
-
-body h2 {
-    font-family: "Arial Bold";
-    font-size:30px;
-    background-color: transparent;
-
-}
-
-body h3 {
-    font-family: "Arial Bold";
-    font-size:24px;
-    background-color: transparent;
-}
-
-body h4 {
-    font-family: "Arial Bold";
-    font-size:20px;
-    background-color: transparent;
-}
-
-body p {
-  background-color: transparent;
-}
-
-
-
-.texte18 {
-    font-family: "Arial Regular";
-    font-size:2vw;
-    background-color: transparent;
-
-}
-
-.texte14 {
-    font-family: "Arial Regular";
-    font-size:14px;
-    background-color: transparent;
-
-}
-
-.texte24italic {
-    font-family: "Arial";
-    font-size:24px;
-    font-style: italic;
-    background-color: transparent;
-
-}
-
-.texte10 {
-    font-family: "Arial Regular";
-    font-size:10px;
-    background-color: transparent;
-
-}
-
-.h4size {
-    font-size: 16px;
-}
-@media screen and (min-width: 600px) {
-    .h4size {
-        font-size: calc(16px + 16 * (100vw - 600px) / 600);
-   }
-}
-@media screen and (min-width: 1200px) {
-    .h4size {
-        font-size: 32px;
-   }
-}
-
-
-/* balises utiles */
-
-a {
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-    font-family: "Arial Regular";
-  }
-  
-  a:hover {
-    color: var(--yellow);
-    text-decoration: underline;
-  }
-
-/* couleurs */
-.transparentBackground {
-  background-color: transparent;
-}
+/* --------------------- fond et couleurs ------------------------*/
 
 .blue-background {
     background-color: #3293ad ;
@@ -152,38 +40,31 @@ a {
     background-color: #f6a623;
 }
 
-input {
-    border-radius: 5px;
-    background: white;
+/* --------------------- fond et couleurs ------------------------*/
 
+
+
+
+
+/* --------------------- flex box ------------------------*/
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
 }
 
-button {
-    border-radius: 5px;
-    background: #f6a623;
-    color:white;
+.center{
+  justify-content: center;
 }
 
-.socialNetwork {
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
+.alignCenter {
+  align-items: center;
+  align-content:center;
 }
 
-.paddingBottomBlockText {
-    padding-bottom: 0.2em;
+.flex {
+  display: flex;
 }
 
-.paddingh2 {
-    padding: 0.6em 0;
-}
+/* --------------------- flex box ------------------------*/
 
-.verticalMarginAuto {
-    margin: auto 0;
-}
-
-@media screen and (max-width:420px) {
-    .texte18 {
-        font-size: 5vw;
-    }
-}

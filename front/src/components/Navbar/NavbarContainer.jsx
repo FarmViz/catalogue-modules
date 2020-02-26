@@ -2,6 +2,8 @@ import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
 import '../Navbar/NavbarContainer.css';
+import NavbarLogo from "./NavbarLogo";
+import NavbarMenu from "./NavbarMenu";
 
 
 class NavbarContainer extends React.Component {
@@ -21,10 +23,12 @@ class NavbarContainer extends React.Component {
 
                     {/* Bloc Logo */}
 
-                    
+                    <NavbarLogo />
 
 
                     {/* {Bloc Menu- Menu Burger} */}
+
+                    <NavbarMenu />
 
             
 

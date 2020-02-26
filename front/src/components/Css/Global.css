@@ -101,4 +101,6 @@ body p {
 }
 
 /* --------------------- flex box (responsive) ------------------------*/
-
+.bordersup{
+    border-top: white solid 1px;
+}

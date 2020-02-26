@@ -65,6 +65,7 @@ body p {
     background-color: #f6a623;
 }
 
+
 /* --------------------- fond et couleurs ------------------------*/
 
 
@@ -100,7 +101,9 @@ body p {
     align-items: center;
 }
 
+
 /* --------------------- flex box (responsive) ------------------------*/
+/*------------------------Border white banniere down ------------------*/
 .bordersup{
     border-top: white solid 1px;
 }

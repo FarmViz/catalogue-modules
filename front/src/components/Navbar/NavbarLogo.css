@@ -1,1 +1,15 @@
+.ruby{
+    display: ruby;
+}
 
+.ruby , h1{
+    font-size: 36px;
+    
+}
+
+.logo{
+    color: #48a24e;
+    font-weight: 900;
+    align-items: center;
+    font-family: "Arial";
+}

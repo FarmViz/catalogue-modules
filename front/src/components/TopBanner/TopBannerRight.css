@@ -26,6 +26,10 @@
 .droite{
     text-align: center;
 }
+    
+.cache_tel{
+    display: none;
+}
 
 .texte14Bold {
     font-size:12px;
@@ -45,12 +49,18 @@
     .droite{
         text-align: center;
     }
+   .mobile{
+       display: none;
+    } 
 }
 
     /*           media desktop         */
 @media screen and (min-width:1025px) {
     .droite{
         text-align: right;
+    }
+    .mobile{
+        display: none;
     }
 }
 

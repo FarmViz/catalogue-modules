@@ -1,5 +1,5 @@
 .ruby{
-    display: ruby;
+    display: contents;
 }
 
 .ruby , h1{
@@ -10,6 +10,16 @@
 .logo{
     color: #48a24e;
     font-weight: 900;
-    align-items: center;
     font-family: "Arial";
+}
+
+
+.baseline {
+    align-items: baseline;
+
+}
+
+.sas {
+    padding-left: 2px;
+    color: #48a24e;
 }

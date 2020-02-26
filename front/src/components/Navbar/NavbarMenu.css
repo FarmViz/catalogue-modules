@@ -1,12 +1,11 @@
 /*                                    MENU NAVBAR                                   */
 
 .menu{
-  float: right;
+  /* float: right; */
   flex-direction: row;
-  /* line-height: 70px; */
    display: flex; 
-
 }
+
 .menu a{
   color:#555555;
   text-transform: uppercase;

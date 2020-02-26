@@ -1,12 +1,12 @@
 /*                                    MENU NAVBAR                                   */
 
 .menu{
-  float: right;
+  /* float: right; */
   flex-direction: row;
-  line-height: 70px;
+
    display: flex; 
-   flex-direction: row;
 }
+
 .menu a{
   color:#555555;
   text-transform: uppercase;
@@ -21,9 +21,7 @@ ul{
   margin-left:0;
   padding-left:0; 
 }
-li{
-  margin-bottom:15px;
-}
+
 .show-menu-btn,.hide-menu-btn{
   transition: 0.4s;
   font-size: 30px;
@@ -31,11 +29,9 @@ li{
   display: none;
 }
 .show-menu-btn{
-  float: right;
+  /* float: right; */
 }
-.show-menu-btn i{
-  line-height: 100px;
-}
+
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{

@@ -77,5 +77,9 @@ body p {
     max-width: 1024px;
 }
 
+.align{
+    align-items: center;
+}
+
 /* --------------------- flex box (responsive) ------------------------*/
 

@@ -10,7 +10,7 @@
      /*           media tablette       */
 @media screen and (min-width:421px) and (max-width:1024px) {
     .droite{
-        text-align: right;
+        text-align: center;
     }
 }
 

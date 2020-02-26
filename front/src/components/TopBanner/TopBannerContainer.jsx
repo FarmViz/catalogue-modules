@@ -2,6 +2,8 @@ import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
 import '../TopBanner/TopBannerContainer.css';
+import TopBannerLeft from './TopBannerLeft';
+import TopBannerRight from './TopBannerRight';
 
 class TopBanner extends React.Component {
     constructor(props) {
@@ -15,8 +17,9 @@ class TopBanner extends React.Component {
 
 
             {/* TopBanner */}
-            <div className="dsk-12 tab-12 mob-12 max-width center">
-
+            <div className="dsk-12 tab-12 mob-12 max-width center flex align">
+                <TopBannerLeft/>
+                <TopBannerRight/>
             </div>
 
             </div>

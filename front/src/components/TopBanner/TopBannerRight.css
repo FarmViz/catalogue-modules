@@ -1,10 +1,43 @@
 
+
+.paddingPhone {
+    padding-left: 0px;
+}
+
+.paddingRightService {
+    padding-right: 10px;
+}
+
+.texte14Bold {
+    font-family: 'Arial' ;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.phoneReverse {
+    transform:rotate(90deg);
+    font-size:14px;
+    font-weight: 1000;
+
+}
   /*          media mobile         */
 @media screen and (max-width:420px) {
     
 .droite{
     text-align: center;
 }
+
+.texte14Bold {
+    font-size:12px;
+}
+
+
+
+.phoneReverse {
+    font-size: 12px;
+
+}
+
 }
 
      /*           media tablette       */

@@ -15,7 +15,7 @@ class NavbarMenu extends React.Component {
                 <nav className="dsk-9 tab-8 mob-8 row flex-end">
                     <input type="checkbox" id="chk" />
                     <label htmlFor="chk" className="show-menu-btn">
-                        <i className="fas fa-bars"></i>
+                        <i className="fas fa-bars burgercolor"></i>
                     </label>
                     <ul className="menu dsk-9 NavbarMenuFontSize">
                         <li><a href="/">Accueil</a></li>
@@ -23,7 +23,7 @@ class NavbarMenu extends React.Component {
                         <li><a href="/societe">Société</a></li>
                         <li><a href="/contact">Contact</a></li>
                         <label htmlFor="chk" className="hide-menu-btn">
-                            <i className="fas fa-times"></i>
+                            <i className="fas fa-times burgercolor"></i>
                         </label>
                     </ul>
                 </nav>

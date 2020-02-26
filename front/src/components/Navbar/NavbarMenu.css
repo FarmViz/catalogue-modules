@@ -34,7 +34,7 @@ li{
   float: right;
 }
 .show-menu-btn i{
-  line-height: 100px;
+  line-height: 70px;
 }
 .menu a:hover,
 .show-menu-btn:hover,
@@ -44,6 +44,9 @@ li{
 }
 .burgercolor{
   color: #79797A;
+}
+.marg{
+  margin-top: 5rem;
 }
 #chk{
   position: absolute;

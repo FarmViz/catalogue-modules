@@ -14,7 +14,7 @@ class NavbarMenu extends React.Component {
          
 
 
-                <nav className="dsk-9 tab-8 mob-7 row flex-end ">
+                <nav className="dsk-9 tab-7 mob-6 row flex-end ">
 
                     <input type="checkbox" id="chk" />
                     <label htmlFor="chk" className="show-menu-btn">

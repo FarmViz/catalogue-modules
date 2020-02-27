@@ -6,7 +6,6 @@ import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
 
-
 class App extends React.Component {
 
   render() {
@@ -22,6 +21,8 @@ class App extends React.Component {
           <Route exact path="/" component={} />
 
         </Switch> */}
+
+
         <FooterContainer />
         <DownBanner/>
 

@@ -11,16 +11,12 @@ class NavbarMenu extends React.Component {
     render() {
         return (
             // NavbarMenu
-         
-
-
-                <nav className="dsk-9 tab-7 mob-6 row flex-end ">
-
+                <nav className="dsk-9 tab-7 mob-6 row flex-end marginLeft3Rem">
                     <input type="checkbox" id="chk" className=" marginRight_1"/>
                     <label htmlFor="chk" className="show-menu-btn ">
                         <i className="fas fa-bars burgercolor marginRight_1"></i>
                     </label>
-                    <ul className="menu dsk-8 NavbarMenuFontSize">
+                    <ul className="menu dsk-8 NavbarMenuFontSize texte14Bold">
                         <li><a href="/">Accueil</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/societe">Société</a></li>
@@ -30,7 +26,6 @@ class NavbarMenu extends React.Component {
                         </label>
                     </ul>
                 </nav>
-          
         );
     }
 }

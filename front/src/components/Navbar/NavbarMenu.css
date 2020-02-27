@@ -45,7 +45,7 @@ ul{
 }
 
 #chk{
-  position: absolute;
+  position: absolute; 
   visibility: hidden;
   z-index: -1111;
   left:200px;
@@ -86,7 +86,8 @@ ul{
   
 }
 .NavbarMenuFontSize {
-    font-size: 14px ;
-
-}
+    font-family: 'Arial' ;
+    font-size: 14px;
+    font-weight: 600;  
+} 
   /*                     FIN MENU NAVBAR                        */

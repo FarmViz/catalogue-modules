@@ -25,12 +25,12 @@ class FooterContainer extends React.Component {
 
                     {/* Bloc Contact */}
 
-                    <FooterContact />
+                     <FooterContact /> 
 
 
                     {/* {Bloc Menu- } */}
 
-                    <FooterMenu />
+                     <FooterMenu /> 
 
                     {/* Bloc Newsletter */}
 

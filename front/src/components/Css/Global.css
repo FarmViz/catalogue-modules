@@ -7,7 +7,6 @@ body a {
 }
 
 body a:hover {
-    color: #FFFF00;
     text-decoration: none;
 }
 
@@ -103,6 +102,14 @@ body p {
 
 .align{
     align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.evenly{
+    justify-content: space-evenly;
 }
 
 /* ------------------------------FIN-SECTION-3------------------------------------------------*/

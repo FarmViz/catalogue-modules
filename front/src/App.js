@@ -5,7 +5,6 @@ import DownBanner from './components/DownBanner/DownBannerContainer';
 import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 
-
 class App extends React.Component {
 
   render() {
@@ -21,6 +20,7 @@ class App extends React.Component {
           <Route exact path="/" component={} />
 
         </Switch> */}
+        
         <DownBanner/>
 
       </>

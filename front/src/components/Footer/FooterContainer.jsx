@@ -7,7 +7,6 @@ import FooterMenu from "./FooterMenu";
 import FooterNewsletter from "./FooterNewsletter";
 import FooterSocialNetwork from "./FooterSocialNetwork";
 
-
 class FooterContainer extends React.Component {
     constructor(props) {
         super(props);
@@ -18,29 +17,24 @@ class FooterContainer extends React.Component {
             // FooterContainer
             <div className="dsk-12 tab-12 mob-12 row center footerContainer blueDiv">
 
-
                 {/* Footer */}
                 <div className="dsk-12 tab-12 mob-12 max-width flex align ">
 
-
                     {/* Bloc Contact */}
 
-                     <FooterContact /> 
-
-
+                    <FooterContact /> 
+                  
                     {/* {Bloc Menu- } */}
 
                      <FooterMenu /> 
 
                     {/* Bloc Newsletter */}
 
-                    <FooterNewsletter />
+                    <FooterNewsletter /> 
 
                     {/* Bloc réseaux sociaux */}
 
-                    <FooterSocialNetwork />
-
-            
+                     <FooterSocialNetwork /> 
 
                 </div>
 

@@ -3,7 +3,6 @@
 .menu{
   /* float: right; */
   flex-direction: row;
-
    display: flex; 
 }
 
@@ -16,6 +15,7 @@
   margin-left: 25px;
    margin-right: 25px; 
 }
+
 ul{
   list-style:none;
   margin-left:0;
@@ -28,6 +28,7 @@ ul{
   cursor: pointer;
   display: none;
 }
+
 .show-menu-btn{
   float: right;
 }
@@ -38,18 +39,16 @@ ul{
   color: #79797A;
   text-decoration: underline;
 }
+
 .burgercolor{
   color: #79797A;
 }
-.marg{
-  margin-top: 5rem;
-}
+
 #chk{
   position: absolute;
   visibility: hidden;
   z-index: -1111;
 }
-
 
 @media screen and (max-width:800px) {
   .show-menu-btn,.hide-menu-btn{
@@ -68,18 +67,22 @@ ul{
     transition: 0.7s;
     flex-direction: column;
   }
+
   .menu a{
     display: block;
     padding: 20px;
   }
+
   .hide-menu-btn{
     position: absolute;
     top: 40px;
     right: 40px;
   }
+
   #chk:checked ~ .menu{
     right: 0;
   }
+  
 }
 .NavbarMenuFontSize {
     font-size: 14px ;

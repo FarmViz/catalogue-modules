@@ -10,9 +10,9 @@ class NavbarLogo extends React.Component {
     }
     render() { 
         return ( 
-            <div className="dsk-3 tab-5 mob-6 flex baseline align"> 
+            <div className="dsk-3 tab-5 mob-6 flex baseline align marginLeft_1"> 
             
-            <h1 className="ruby logo">FarmViz<p className="sas">sas</p></h1>
+            <h1 className="ruby logo marginReft_2">FarmViz<p className="sas">sas</p></h1>
 
             </div>
          );

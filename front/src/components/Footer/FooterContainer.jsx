@@ -2,10 +2,10 @@ import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
 import './FooterContainer.css';
-import FooterContact from "./FooterContact";
+// import FooterContact from "./FooterContact";
 import FooterMenu from "./FooterMenu";
-import FooterNewsletter from "./FooterNewsletter";
-import FooterSocialNetwork from "./FooterSocialNetwork";
+// import FooterNewsletter from "./FooterNewsletter";
+// import FooterSocialNetwork from "./FooterSocialNetwork";
 
 
 class FooterContainer extends React.Component {
@@ -25,7 +25,7 @@ class FooterContainer extends React.Component {
 
                     {/* Bloc Contact */}
 
-                    <FooterContact />
+                    {/* <FooterContact /> */}
 
 
                     {/* {Bloc Menu- } */}
@@ -34,11 +34,11 @@ class FooterContainer extends React.Component {
 
                     {/* Bloc Newsletter */}
 
-                    <FooterNewsletter />
+                    {/* <FooterNewsletter /> */}
 
                     {/* Bloc réseaux sociaux */}
 
-                    <FooterSocialNetwork />
+                    {/* <FooterSocialNetwork /> */}
 
             
 

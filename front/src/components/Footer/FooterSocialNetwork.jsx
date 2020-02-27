@@ -10,7 +10,7 @@ class FooterSocialNetwork extends React.Component {
     }
     render() {
         return (
-            <div className="dsk-3 tab-6 mob-12 flex center column padding25TopBottom">
+            <div className="dsk-3 tab-12 mob-12 flex center column padding25TopBottom">
 
                 <h2 className="center flex texte14">REJOIGNEZ-NOUS</h2>
 

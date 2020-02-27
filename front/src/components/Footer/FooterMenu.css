@@ -7,7 +7,7 @@
     justify-items: left;
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:1024px) {
     .footerMenuRow{
         flex-direction: row;
         justify-content: space-evenly;

@@ -10,7 +10,7 @@ class FooterContact extends React.Component {
     }
     render() {
         return (
-            <div className="dsk-2 tab-6 mob-12 flex column height-footer-contact alignContactFooterTab baseLine padding25TopBottom">
+            <div className="dsk-2 tab-12 mob-12 flex column height-footer-contact alignContactFooterTab baseLine padding25TopBottom">
                 <div className="dsk-12 tab-12 mob-12 mobile-center column alignContactFooterTab alignCenter">
                 <img className="size-logo-farmviz padding-footer-contact " src="" alt="img site web"/>
                 </div>

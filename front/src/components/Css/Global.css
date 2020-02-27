@@ -156,6 +156,10 @@ body p {
     justify-content: space-evenly;
 }
 
+.between{
+    justify-content: space-between;
+}
+
 /* ------------------------------FIN-SECTION-3------------------------------------------------*/
 
 
@@ -175,6 +179,7 @@ body p {
 .padding10TopBottom{
     padding: 10px 0 0;
 }
+
 /* ------------------------------FIN-SECTION-4------------------------------------------------*/
 
 

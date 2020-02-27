@@ -31,6 +31,19 @@
     .mob-11{width: 91.66%;}
     .mob-12{width: 100%;}
     
+
+    .mobile-center{
+      display: flex;
+      justify-content: center;
+    }
+
+    .size-logo-reseau{
+      width: 30px;
+      height: 30px;
+      padding: 8px 0px;
+      margin: 0 -50px;
+  }
+
 }
 
 /*------------------------------------------------ media queries mobile ------------------------------------------------ */
@@ -74,7 +87,11 @@
 
 
 
-
+    .size-logo-reseau{
+      width: 30px;
+      height: 30px;
+      padding: 8px 0px;
+  }
 
 
 }
@@ -118,7 +135,12 @@
     .dsk-12{width: 100%;}
 
 
-
+    .size-logo-reseau{
+      width: 30px;
+      height: 30px;
+      padding: 8px 0px;
+      margin: 0 -50px;
+  }
 
 }
 

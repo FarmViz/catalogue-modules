@@ -25,6 +25,12 @@ body p {
     font-size: 12px;
 }
 
+.texte14 {
+    font-family: "Arial Regular Bold";
+    font-size:14px;
+    background-color: transparent;
+} 
+
 .text14Bold {
     font-family: 'Arial' ;
     font-size: 14px;
@@ -110,7 +116,9 @@ body p {
     justify-content: left;
 }
 
-
+.baseLine{
+    justify-items: flex-end;
+}
 
 .alignCenter {
   align-items: center;
@@ -122,6 +130,10 @@ body p {
 }
 .flex-end{
     justify-content: flex-end;
+}
+
+.align-items-flex-end{
+    align-items: flex-end;
 }
 
 .max-width{
@@ -157,7 +169,12 @@ body p {
 .marginRight_1{
     margin-right: 1rem;
 }
-
+.padding25TopBottom{
+    padding: 25px 0;
+}
+.padding10TopBottom{
+    padding: 10px 0 0;
+}
 /* ------------------------------FIN-SECTION-4------------------------------------------------*/
 
 

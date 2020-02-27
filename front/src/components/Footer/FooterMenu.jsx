@@ -10,9 +10,9 @@ class FooterMenu extends Component {
         return (
             <>
                 
-                    <div className="dsk-2 tab-2 mob-12 column alignCenter">
-                        <ul className="column text12Bold footerMenuRow">
-                            <a href="/"><li className="footerMenuLi">Accueil</li></a>
+                    <div className="dsk-2 tab-6 mob-12 column alignCenter baseLine padding25TopBottom">
+                        <ul className="column text12Bold footerMenuRow baseLine  ">
+                            <a href="/"><li className="footerMenuLi baseLine ">Accueil</li></a>
                             <a href="/services"><li className="footerMenuLi">Services</li></a>
                             <a href="/societe"><li className="footerMenuLi" >Société</li></a>
                             <a href="/contact"><li className="footerMenuLi">Contact</li></a>

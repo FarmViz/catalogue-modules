@@ -18,7 +18,7 @@ class FooterContainer extends React.Component {
             <div className="dsk-12 tab-12 mob-12 row center footerContainer blueDiv">
 
                 {/* Footer */}
-                <div className="dsk-12 tab-12 mob-12 max-width flex align ">
+                <div className="dsk-12 tab-12 mob-12 max-width row footerMenuContainerColumn justiContentCenter align-items-flex-end">
 
                     {/* Bloc Contact */}
 

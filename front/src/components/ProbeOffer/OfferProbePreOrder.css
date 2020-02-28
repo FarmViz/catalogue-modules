@@ -1,60 +1,53 @@
-
-
-
-
-
+/* Creaction de checkbox checked coche de coleur*/
 .align_right {
-	display: block;
-	margin-bottom: 15px;
+	/* display: block; */
+	margin-bottom: 5px;
   }
   
   .align_right input {
-	padding: 0;
+	/* padding: 0; */
 	height: initial;
 	width: initial;
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
 	display: none;
-	cursor: pointer;
-  }
+	/* cursor: pointer; */
+  } 
   
-  .align_right label {
+.align_right label {
 	position: relative;
 	cursor: pointer;
-  }
+  } 
   
   .align_right label:before {
 	content:'';
 	-webkit-appearance: none;
-	background-color: transparent;
-	border: 2px solid #0079bf;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-	padding: 10px;
+	background-color: white;
+	/* border: 2px solid #9C9C9C; */
+	padding: 6px; 
 	display: inline-block;
 	position: relative;
-	vertical-align: middle;
-	cursor: pointer;
-	margin-right: 5px;
+	 vertical-align: middle; 
+	border-radius: 3px;
   }
   
   .align_right input:checked + label:after {
 	content: '';
 	display: block;
 	position: absolute;
-	top: -16px;
-	left: 6px;
-	width: 16px;
-	height: 30px;
-	border: solid #0079bf;
+	top: -8px;
+	left: 3px;
+	width: 9px;
+	height: 18px;
+	border: solid #f35f0a;
 	border-width: 0 2px 2px 0;
 	transform: rotate(45deg);
   }
   
 
-
 .paddingPreCommande{
     padding-right: 10px;
 }
-
+/* Prix barré */
 div#barre {
     position: absolute;
      z-index: 4;

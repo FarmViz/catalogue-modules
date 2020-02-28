@@ -12,7 +12,7 @@ class OfferProbePreOrder extends Component {
                 
                     <div className="dsk-7 tab-8 mob-12 blueDiv">
                     <div className=" dsk-6 tab-10 mob-10 column flex align-items-flex-end ">
-                        <h1 className="yellow">PRÉS-COMMANDER</h1>
+                        <h1 className="yellow">PRÉ-COMMANDER</h1>
                         <h2>votre PACK MOBILE</h2>
                         <h3>Sonde de thermométrie intelligente</h3>
                         <div className=" dsk-8 tab-10 mob-10 row flex contentFlexEnd">
@@ -20,27 +20,27 @@ class OfferProbePreOrder extends Component {
                                 <div className=" flex align_right form-group ">
                                     <li className="paddingPreCommande test">1 sonde de thermoétrie </li>
                                     <input type="checkbox" id="test1" defaultChecked />
-                                    <label className="padding10TopBottom" htmlFor="test1" aria-describedby="label"></label>
+                                    <label className="padd" htmlFor="test1" aria-describedby="label"></label>
                                 </div>
                                 <div className="align_right flex" >
                                     <li className="paddingPreCommande">Application Mobile  </li>
                                     <input type="checkbox" id="test2" defaultChecked />
-                                    <label className="padding10TopBottom" htmlFor="test2" aria-describedby="label"></label>
+                                    <label className="padd" htmlFor="test2" aria-describedby="label"></label>
                                 </div>
                                 <div className="align_right flex" >
                                     <li className="paddingPreCommande">Service Client </li>
                                     <input type="checkbox" id="test3" defaultChecked />
-                                    <label className="padding10TopBottom" htmlFor="test3" aria-describedby="label"></label>
+                                    <label className="padd" htmlFor="test3" aria-describedby="label"></label>
                                 </div>
                                 <div className="align_right flex">
                                     <li className="paddingPreCommande">Garantie 1 an  </li>
                                     <input type="checkbox" id="test4" defaultChecked />
-                                    <label className="padding10TopBottom" htmlFor="test4" aria-describedby="label"></label>
+                                    <label className="padd" htmlFor="test4" aria-describedby="label"></label>
                                 </div>
                                 <div className="align_right flex">
                                     <li className="paddingPreCommande">Votre sonde vous suit dans les packs  </li>
                                     <input type="checkbox" id="test5" defaultChecked />
-                                    <label className="padding10TopBottom" htmlFor="test5" aria-describedby="label"></label>
+                                    <label className="padd" htmlFor="test5" aria-describedby="label"></label>
                                 </div>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@ class OfferProbePreOrder extends Component {
                     </div>
                     <div className=" dsk-6 tab-10 mob-10 row">
                         <a href="/decouvrir">Découvrir</a>
-                        <button className="button_transparent">PRECOMMANDER</button>
+                        <button className="button_transparent">PRÉCOMMANDER</button>
                     </div>
                     <div className="jesais pas encore ">
                         <p>

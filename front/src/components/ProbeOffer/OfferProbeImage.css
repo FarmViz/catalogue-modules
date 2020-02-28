@@ -1,3 +1,14 @@
 .offerImageParent{
-    height:335.06px;
+  height: 100%;
+    width:100%; 
 }
+
+.offerImage { 
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+
+
+

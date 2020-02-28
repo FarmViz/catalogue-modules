@@ -10,8 +10,8 @@ class OfferProbePreOrder extends Component {
         return (
             <>
                 
-                    <div className="dsk-7 tab-8 mob-12 blueDiv">
-                    <div className=" dsk-6 tab-10 mob-10 column flex align-items-flex-end ">
+                    <div className="dsk-8 tab-8 mob-12 blueDiv inter-media-offer">
+                    <div className=" dsk-10 tab-10 mob-10 column flex align-items-flex-end ">
                         <h1 className="yellow">PRÉ-COMMANDER</h1>
                         <h2>votre PACK MOBILE</h2>
                         <h3>Sonde de thermométrie intelligente</h3>
@@ -45,14 +45,14 @@ class OfferProbePreOrder extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className=" dsk-6 tab-10 mob-10 column flex align-items-flex-end">
+                    <div className=" dsk-10 tab-10 mob-10 column flex align-items-flex-end">
                     <div>
                     <h1 className="yellow">149€</h1>
                     <div className="barre" id="barre" ></div>
                     <div className="prix" id="prix"><p>199€"</p></div>
                 </div>
                     </div>
-                    <div className=" dsk-6 tab-10 mob-10 row">
+                    <div className=" dsk-9 tab-10 mob-10 row">
                         <a href="/decouvrir">Découvrir</a>
                         <button className="button_transparent">PRÉCOMMANDER</button>
                     </div>

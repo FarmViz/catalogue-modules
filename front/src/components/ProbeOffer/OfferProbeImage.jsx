@@ -5,13 +5,13 @@ import './OfferProbeImage.css';
 
 class OfferProbeImage extends Component {
 
-
     render() {
         return (
 
             // conteneur du bloc image
-
             <>
+                <div className="dsk-4 tab-4 mob-12 offerImageParent">
+                    <img className="dsk-12 tab-12 mob-12 " src="https://www.toutpourlegrain.fr/jpg/stockage/stockage.jpg" alt="visuel offre de lancement" />
                 <div className="dsk-4 tab-4 mob-12">
                     <div className="offerImageParent">
                         <img className="offerImage" src="https://www.toutpourlegrain.fr/jpg/stockage/stockage.jpg" alt="visuel offre de lancement" />

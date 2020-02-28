@@ -42,11 +42,28 @@ body p {
     font-size: 12px;
     font-weight: 800;
 }
+.text12 {
+    font-family: 'Arial' ;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 .text16Bold {
     font-family: 'Arial' ;
     font-size: 16px;
     font-weight: 800;
+}
+.graisse200{
+    font-weight: 590;
+}
+.graisse400{
+    font-weight: 400;
+}
+.graisse600{
+    font-weight: 600;
+}
+.graisse900{
+    font-weight: 900;
 }
 /* ------------------------------FIN-SECTION-1------------------------------------------------*/
 
@@ -173,11 +190,15 @@ body p {
 
 /* -------------------------------SECTION-4------------------------------------------------*/
 /* ---------------------- Maring et padding ---------------------------*/
-
+.marginT1{
+    margin-top: 1rem;
+}
 .marginLeft_1{
     margin-left: 1rem;
 }
-
+.marginL3{
+    margin-left: 3rem;
+}
 .marginRight_1{
     margin-right: 1rem;
 }
@@ -186,6 +207,13 @@ body p {
 }
 .padding10TopBottom{
     padding: 10px 10px 0 ;
+}
+.marginB1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.marginB10{
+    margin-top: 2.5rem;
 }
 
 /* ------------------------------FIN-SECTION-4------------------------------------------------*/
@@ -209,8 +237,8 @@ body p {
 
 .button_transparent{
     background-color: transparent;
-    border: white 1px solid;
-    border-radius: 10px;
+    border: white 2px solid;
+    border-radius: 5px;
     color: white;
 }
 /* ------------------------------FIN-SECTION-6------------------------------------------------*/

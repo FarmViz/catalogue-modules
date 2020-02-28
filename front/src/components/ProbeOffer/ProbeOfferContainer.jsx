@@ -22,10 +22,6 @@ class ProbeOfferContainer extends React.Component {
                     {/* {Bloc Offre de lancement } */}
 
                     <OfferProbePreOrder />
-                  
-                    {/* {Bloc Offre de lancement } */}
-
-                    <OfferProbePreOrder /> 
 
             </div>
         );

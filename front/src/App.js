@@ -5,6 +5,7 @@ import DownBanner from './components/DownBanner/DownBannerContainer';
 import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
+import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 
 class App extends React.Component {
 
@@ -12,9 +13,12 @@ class App extends React.Component {
     return (
       <>
 
-      <TopBanner/>
-      <NavbarContainer />
-      
+        <TopBanner />
+
+        <NavbarContainer />
+
+        <ProbeOfferContainer />
+
 
         {/* <Switch>
 
@@ -24,7 +28,7 @@ class App extends React.Component {
 
 
         <FooterContainer />
-        <DownBanner/>
+        <DownBanner />
 
       </>
     );

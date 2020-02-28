@@ -16,6 +16,7 @@ class OfferProbeImage extends Component {
                         <img className="offerImage" src="https://www.toutpourlegrain.fr/jpg/stockage/stockage.jpg" alt="visuel offre de lancement" />
                     </div>
                 </div>
+               </div>  
             </>
         )
     }

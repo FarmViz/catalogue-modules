@@ -28,7 +28,9 @@
         font-size:12px;
         background-color: transparent;
     }
-
+#Captcha{
+    visibility: hidden;
+}
     /* @media screen and (max-width:420px) {
           /* .footer_corps{
             display: flex;

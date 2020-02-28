@@ -52,7 +52,7 @@ body p {
 
 
 /* -------------------------------SECTION-2------------------------------------------------*/
-/* --------------------- fond et couleurs ------------------------*/
+/* --------------------- fond, couleurs et couleur de texte------------------------*/
 
 .blue-background {
     background-color: #3293ad ;
@@ -91,6 +91,9 @@ body p {
 }
 .orangeDiv {
     background-color: #f6a623;
+}
+.yellow{
+    color:#FFFF00  ;
 }
 /* ------------------------------FIN-SECTION-2------------------------------------------------*/
 
@@ -161,6 +164,10 @@ body p {
     justify-content: space-between;
 }
 
+.contentFlexEnd{
+    justify-content: flex-end;
+}
+
 /* ------------------------------FIN-SECTION-3------------------------------------------------*/
 
 
@@ -178,7 +185,7 @@ body p {
     padding: 25px 0;
 }
 .padding10TopBottom{
-    padding: 10px 0 0;
+    padding: 10px 10px 0 ;
 }
 
 /* ------------------------------FIN-SECTION-4------------------------------------------------*/
@@ -198,5 +205,12 @@ body p {
     border-radius: 5px;
     background: #f6a623;
     color:white;
+}
+
+.button_transparent{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 10px;
+    color: white;
 }
 /* ------------------------------FIN-SECTION-6------------------------------------------------*/

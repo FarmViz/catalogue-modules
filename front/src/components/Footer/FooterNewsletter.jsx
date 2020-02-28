@@ -154,11 +154,14 @@ class FooterNewsletter extends Component {
                                     : 'Ok'
                             } />
                     </div>
-            <Recaptcha
+                    <div id="Captcha">
+                         <Recaptcha
                             ref={ref => (this.recaptcha = ref)}
                             sitekey="6LfSX9YUAAAAAHGi5gUy5NetwOCc0SQe_1YBK8vC"
                             onResolved={this.onResolved}
-                        />
+                            
+                        /> 
+                         </div>
                         <div
                             className={
                             this.state.isSent ? 'alert alert-success' : 'd-none'

@@ -1,6 +1,7 @@
 .footerContainer {
    padding:10px 0; 
-   height: auto; 
+   height: auto;
+
 }
 
 @media screen and (max-width:420px) {

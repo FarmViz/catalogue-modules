@@ -202,6 +202,10 @@ body p {
 .marginRight_1{
     margin-right: 1rem;
 }
+.marginRight_10{
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
 .padding25TopBottom{
     padding: 25px 0;
 }
@@ -209,6 +213,9 @@ body p {
     padding: 10px 10px 0 ;
 }
 .marginB1{
+    margin-bottom: 0.5rem;
+}
+.marginBT1{
     margin-bottom: 1rem;
     margin-top: 1rem;
 }

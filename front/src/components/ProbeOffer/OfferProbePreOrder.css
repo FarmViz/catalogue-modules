@@ -61,4 +61,15 @@ div#barre {
 div#prix {
     position: absolute;
      z-index: 2;
-    }
+	}
+	
+
+	@media screen and (max-width:651px){
+
+		.inter-media-offer{
+		   flex-direction: column;
+		   width: 100%;
+		   }
+	   
+		  
+	   }

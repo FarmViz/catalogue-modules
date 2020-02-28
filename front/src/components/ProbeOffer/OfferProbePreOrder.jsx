@@ -9,7 +9,6 @@ class OfferProbePreOrder extends Component {
     render() {
         return (
             <>
-
                 <div className="dsk-7 tab-8 mob-12 blueDiv">
                     <div className=" dsk-6 tab-10 off-mob-1 mob-10 column flex align-items-flex-end ">
                         <h1 className="yellow graisse600 marginT1 alig">PRÉCOMMANDER</h1>
@@ -46,7 +45,6 @@ class OfferProbePreOrder extends Component {
                         </div>
                     </div>
                     <div className=" dsk-6 tab-10 mob-10 column flex align-items-flex-end">
-
                         <div>
                             <h1 className="yellow  prixPromo">149€</h1>
                             <div className="barre content" id="barre" ></div>

@@ -57,6 +57,7 @@ div#prix {
     position: absolute;
      z-index: 2;
 	}
+
 	.taillePrix{
 		font-size: 1.5rem;
 	}
@@ -77,4 +78,13 @@ div#prix {
 	.content{
 		margin-left: 3rem;
 	}
-	
+
+	@media screen and (max-width:651px){
+
+		.inter-media-offer{
+		   flex-direction: column;
+		   width: 100%;
+		   }
+	   
+		  
+	   }

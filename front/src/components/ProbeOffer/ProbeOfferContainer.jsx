@@ -16,13 +16,15 @@ class ProbeOfferContainer extends React.Component {
             // ProbeOfferContainer
             <div className="dsk-12 tab-12 mob-12 row center probeOfferContainer max-width">
 
+
                     {/* Bloc Images */}
 
                     <OfferProbeImage />
                     
+                  
                     {/* {Bloc Offre de lancement } */}
 
-                    <OfferProbePreOrder />
+                    <OfferProbePreOrder /> 
 
             </div>
         );

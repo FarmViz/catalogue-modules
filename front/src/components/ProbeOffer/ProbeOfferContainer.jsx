@@ -5,7 +5,6 @@ import './ProbeOfferContainer.css';
 import OfferProbeImage from "./OfferProbeImage";
 import OfferProbePreOrder from "./OfferProbePreOrder";
 
-
 class ProbeOfferContainer extends React.Component {
     constructor(props) {
         super(props);
@@ -16,15 +15,13 @@ class ProbeOfferContainer extends React.Component {
             // ProbeOfferContainer
             <div className="dsk-12 tab-12 mob-12 row center probeOfferContainer  max-width">
 
-
                     {/* Bloc Images */}
 
-                    <OfferProbeImage />
-                    
-                  
+                    <OfferProbeImage />   
+
                     {/* {Bloc Offre de lancement } */}
 
-                    <OfferProbePreOrder /> 
+                    <OfferProbePreOrder />
 
             </div>
         );

@@ -43,6 +43,16 @@
     padding-right: 10px;
 }
 
+.marginB1{
+    margin-bottom: 0.5rem;
+}
+
+
+.marginB10{
+    margin-top: 2.5rem;
+}
+
+
 div#barre {
     position: absolute;
      z-index: 4;
@@ -73,18 +83,37 @@ div#prix {
 		text-align: center;
 	}
 	.alig{
-		text-align: center;
+		text-align: right;
+		font-size:2rem;
 	}
 	.content{
 		margin-left: 3rem;
 	}
 
-	@media screen and (max-width:651px){
+	
 
-		.inter-media-offer{
-		   flex-direction: column;
-		   width: 100%;
-		   }
-	   
-		  
+	.sousdiv {
+		border: 1px solid yellow;
+	}
+
+	.marginRight_10{
+		margin-right: 3rem;
+		margin-top: 0.5rem;
+	}
+
+
+
+	
+
+@media screen and (max-width:702px){
+
+	.inter-media-offer{
+	   flex-direction: column;
+	   width: 100%;
 	   }
+
+	   .marginTopPrecom {
+		margin-top: 1rem;
+	}
+
+}

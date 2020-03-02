@@ -133,7 +133,7 @@ class FooterNewsletter extends Component {
     render() {
         const { email } = this.state;
         return (
-            <section className="section3 dsk-4 tab-5 mob-12 center column blueDiv padding25TopBottom" onSubmit={this.handleContactSubmit} >
+            <section className="section3 dsk-4 tab-5 mob-12 justContCenter column blueDiv paddingTopBottom25px" onSubmit={this.handleContactSubmit} >
             <form className="section_newsletter dsk-12 tab-12 mob-12  column blueDiv"  >
                 <div className="footer_newsletter_titre  dsk-12 tab-12 mob-12 blueDiv"><h4 className="paddingh2 texte14">NEWSLETTER</h4><span className="msg_erreur">{this.state.formErrors.email}</span> </div>
                 <div className="footer__newsletter_text  dsk-12 tab-12 mob-12 blueDiv"><p className="p_news_jaune texte12">Abonnez-vous à nos dernières actualités</p></div>

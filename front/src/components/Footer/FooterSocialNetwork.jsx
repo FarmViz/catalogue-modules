@@ -10,11 +10,11 @@ class FooterSocialNetwork extends React.Component {
     }
     render() {
         return (
-            <div className="dsk-3 tab-12 mob-12 flex center column padding25TopBottom">
+            <div className="dsk-3 tab-12 mob-12 flex justContCenter column paddingTopBottom25px">
 
-                <h2 className="center flex texte14">REJOIGNEZ-NOUS</h2>
+                <h2 className="justContCenter flex texte14">REJOIGNEZ-NOUS</h2>
 
-                <div className="dsk-12 tab-12 mob-12 flex evenly ">
+                <div className="dsk-12 tab-12 mob-12 flex justContEvenly ">
                     <img className="size-logo-reseau" href="" src="" alt="facebook"/>
                     <img className="size-logo-reseau" href="" src="" alt="twitter"/>
                     <img className="size-logo-reseau" href="" src="" alt="linkedin"/>

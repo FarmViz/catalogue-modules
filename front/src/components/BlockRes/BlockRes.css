@@ -1,0 +1,128 @@
+/* Alignement et responsive */
+
+.max-long{
+    max-width: 1024px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.fond-img{
+    background-color: #3293ad;
+}
+
+/* Alignement et responsive */
+
+/*  */
+/*  */
+
+/* Typo */
+
+h1, h2, h3, h4, h5, h6, a, p{
+    font-family: Arial;
+    color: #ffffff;
+}
+
+/* Typo */
+
+/*  */
+/*  */
+
+/* Hauteur Block parent + Animation*/
+
+.height-parent{
+    height: auto;
+}
+
+/* Hauteur Block parent + Animation*/
+
+/*  */
+/*  */
+
+/* Hauteur Block enfant */
+
+.height-child{
+    height: 300px;
+}
+
+/* Hauteur Block enfant */
+
+/*  */
+/*  */
+
+/* Hauteur sous Block enfant texte 1 et 2*/
+
+.height-text{
+    height: 75%;
+}
+
+/* Hauteur sous Block enfant texte 1 et 2*/
+
+/*  */
+/*  */
+
+/* Hauteur sous Block enfant btn 1 et 2*/
+
+.height-btn{
+    height: 25%;
+}
+
+/* Hauteur sous Block enfant btn 1 et 2*/
+
+
+/*  */
+/*  */
+
+
+/* Effet hover btn*/
+
+.height-btn input{
+    background-color: #f6a623;
+    border: 1px solid white;
+}
+
+.height-btn input:hover{
+    background-color: #ffffff;
+    border: 1px solid #f6a623;
+    color: #f6a623;
+}
+
+/* Effet hover btn*/
+
+/*  */
+/*  */
+
+/* Fond de couleur sous Block enfant */
+
+.background-child{
+    background-color: #57a0d1;
+}
+
+/* Fond de couleur sous Block enfant */
+
+/*  */
+/*  */
+
+/* Animation */
+
+/* @keyframes slideDown{
+    from{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+} */
+
+/* Animation */

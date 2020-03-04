@@ -36,6 +36,7 @@ body h2 {
     font-family: "Arial";
 }
 
+
 .texte14 {
     font-family: "Arial";
     font-size:14px;
@@ -174,9 +175,6 @@ body h2 {
     align-items: center;
 }
 
-
-
-
 .alignItemFlexEnd{
     align-items: flex-end;
 }
@@ -187,6 +185,10 @@ body h2 {
     margin: 0 auto;
 }
 
+.separateurBlock{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
 

@@ -44,6 +44,14 @@
       margin: 0 -50px;
   }
 
+/* Proviens du BlockRes */
+
+  .margin{
+    margin: 20px 0px 20px 0px
+}
+
+/* Proviens du BlockRes */
+
 }
 
 /*------------------------------------------------ media queries mobile ------------------------------------------------ */
@@ -93,6 +101,14 @@
       padding: 8px 0px;
   }
 
+  /* Proviens du BlockRes */
+
+  .margin{
+    margin: 20px 15px 20px 15px;
+  }
+
+
+  /* Proviens du BlockRes */
 
 }
 
@@ -141,6 +157,22 @@
       padding: 8px 0px;
       margin: 0 -50px;
   }
+
+/* Proviens du BlockRes */
+
+  .margin{
+    margin: 15px 0px 15px 0px
+}
+
+.margin-block-enfant-left{
+  margin-left: 30px;
+}
+
+.margin-block-enfant-right{
+  margin-right: 30px;
+}
+
+/* Proviens du BlockRes */
 
 }
 

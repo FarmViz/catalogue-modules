@@ -6,6 +6,7 @@ import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
+import BlockRes from './components/BlockRes/BlockRes';
 
 class App extends React.Component {
 
@@ -26,10 +27,12 @@ class App extends React.Component {
 
         </Switch> */}
 
+        <BlockRes/>
 
         <FooterContainer />
         <DownBanner />
 
+        
       </>
     );
   }

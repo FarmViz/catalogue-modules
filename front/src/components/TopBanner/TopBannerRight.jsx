@@ -7,7 +7,7 @@ class TopBannerRight extends React.Component {
 
   render() {
     return (
-     <div className=" droite border dsk-6 tab-12 mob-12 " >
+     <div className=" droite dsk-6 tab-12 mob-12 " >
        <div>
 
           <a className="justContCenter texte14Bold paddingRightService couleur" >Service client 6J/7 de 7h à 21h</a><i className="fas fa-phone paddingPhone phoneReverse"></i> 

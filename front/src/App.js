@@ -6,12 +6,18 @@ import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
+import ErrorContainer from './components/ErrorPage/ErrorContainer';
+
 
 class App extends React.Component {
 
   render() {
     return (
       <>
+
+
+      
+
 
         <TopBanner />
 
@@ -22,7 +28,7 @@ class App extends React.Component {
 
         {/* <Switch>
 
-          <Route exact path="/" component={} />
+          <Route exact path="/error" component={ErrorContainer} />
 
         </Switch> */}
 

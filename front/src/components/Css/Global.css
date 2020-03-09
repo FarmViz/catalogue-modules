@@ -111,9 +111,6 @@ body p {
     flex-direction: column;
 }
 
-.center{
-  justify-content: center;
-}
 
 .justifyLeft {
     justify-content: left;

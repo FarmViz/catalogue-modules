@@ -16,11 +16,11 @@ class NavbarContainer extends React.Component {
     render() {
         return (
             // NavbarContainer
-            <div className="dsk-12 tab-12 mob-12 row center navbarContainer">
+            <div className="dsk-12 tab-12 mob-12 row justContCenter navbarContainer">
 
 
                 {/* NavBar */}
-                <div className="dsk-12 tab-12 mob-12 max-width flex align ">
+                <div className="dsk-12 tab-12 mob-12 max-width flex alignItemCenter">
 
 
                     {/* Bloc Logo */}

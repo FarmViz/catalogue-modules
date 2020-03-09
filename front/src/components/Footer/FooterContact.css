@@ -19,6 +19,12 @@
     font-size: 19px;
     height: 10px;
 }
+
+.padding10TopBottom{
+    padding: 10px 10px 0 ;
+}
+
+
 @media screen and (min-width: 421px) and (max-width: 1024px){
    .alignContactFooterTab{
     align-items: center;

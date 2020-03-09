@@ -4,6 +4,7 @@
 body a {
     color: white;
     text-decoration: none;
+    font-family: "Arial";
 }
 
 body a:hover {
@@ -25,8 +26,19 @@ body p {
     font-size: 12px;
 }
 
+body h1 {
+    font-size: 56px;
+    font-family: "Arial";
+}
+
+body h2 {
+    font-size: 32px;
+    font-family: "Arial";
+}
+
+
 .texte14 {
-    font-family: "Arial Regular Bold";
+    font-family: "Arial";
     font-size:14px;
     background-color: transparent;
 } 
@@ -42,11 +54,26 @@ body p {
     font-size: 12px;
     font-weight: 800;
 }
+.text12 {
+    font-family: 'Arial' ;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 .text16Bold {
     font-family: 'Arial' ;
     font-size: 16px;
     font-weight: 800;
+}
+
+.graisse400{
+    font-weight: 400;
+}
+.graisse600{
+    font-weight: 600;
+}
+.graisse900{
+    font-weight: 900;
 }
 /* ------------------------------FIN-SECTION-1------------------------------------------------*/
 
@@ -54,9 +81,6 @@ body p {
 /* -------------------------------SECTION-2------------------------------------------------*/
 /* --------------------- fond, couleurs et couleur de texte------------------------*/
 
-.blue-background {
-    background-color: #3293ad ;
-}
 
 .greenDiv {
     background-color: #48a24e;
@@ -101,6 +125,10 @@ body p {
 /* -------------------------------SECTION-3------------------------------------------------*/
 /* --------------------- flex box (responsive) ------------------------*/
 
+.flex {
+    display: flex;
+  }
+
 .row {
     display:flex;
     flex-wrap: wrap;
@@ -112,27 +140,44 @@ body p {
 }
 
 
-.justifyLeft {
+.justContCenter{
+  justify-content: center;
+}
+
+
+.justContLeft {
     justify-content: left;
 }
 
-.baseLine{
+
+.justContFlexEnd{
+    justify-content: flex-end;
+}
+
+.justContEvenly{
+    justify-content: space-evenly;
+}
+
+.justContBetween{
+    justify-content: space-between;
+}
+
+.justItemFlexEnd{
     justify-items: flex-end;
 }
 
-.alignCenter {
+
+
+.flexAlignCenter {
   align-items: center;
   align-content:center;
 }
 
-.flex {
-  display: flex;
-}
-.flex-end{
-    justify-content: flex-end;
+.alignItemCenter{
+    align-items: center;
 }
 
-.align-items-flex-end{
+.alignItemFlexEnd{
     align-items: flex-end;
 }
 
@@ -142,48 +187,48 @@ body p {
     margin: 0 auto;
 }
 
-.align{
-    align-items: center;
-}
-.justiContentCenter {
-    justify-content: center;
+.separateurBlock{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.column{
-    flex-direction: column;
-}
 
-.evenly{
-    justify-content: space-evenly;
-}
 
-.between{
-    justify-content: space-between;
-}
 
-.contentFlexEnd{
-    justify-content: flex-end;
-}
+
+
+
+
+
 
 /* ------------------------------FIN-SECTION-3------------------------------------------------*/
 
 
 /* -------------------------------SECTION-4------------------------------------------------*/
 /* ---------------------- Maring et padding ---------------------------*/
-
-.marginLeft_1{
+.marginTop1rem{
+    margin-top: 1rem;
+}
+.marginLeft1rem{
     margin-left: 1rem;
 }
-
-.marginRight_1{
+.marginLeft3rem{
+    margin-left: 3rem;
+}
+.marginRight1rem{
     margin-right: 1rem;
 }
-.padding25TopBottom{
+
+.paddingTopBottom25px{
     padding: 25px 0;
 }
-.padding10TopBottom{
-    padding: 10px 10px 0 ;
+
+
+.marginTopBottom1rem{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
+
 
 /* ------------------------------FIN-SECTION-4------------------------------------------------*/
 
@@ -206,8 +251,8 @@ body p {
 
 .button_transparent{
     background-color: transparent;
-    border: white 1px solid;
-    border-radius: 10px;
+    border: white 2px solid;
+    border-radius: 5px;
     color: white;
 }
 /* ------------------------------FIN-SECTION-6------------------------------------------------*/

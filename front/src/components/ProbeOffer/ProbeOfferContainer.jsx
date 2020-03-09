@@ -14,8 +14,8 @@ class ProbeOfferContainer extends React.Component {
     render() {
         return (
             // ProbeOfferContainer
-            <div className="dsk-12 tab-12 mob-12 row center probeOfferContainer max-width">
-
+          
+            <div className="dsk-12 tab-12 mob-12 row justContCenter probeOfferContainer max-width">
 
                     {/* Bloc Images */}
 

@@ -72,6 +72,7 @@ ul{
     line-height: normal;
     transition: 0.7s;
     flex-direction: column;
+    z-index: 8;
   }
 
   .menu a{

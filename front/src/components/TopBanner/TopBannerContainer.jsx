@@ -13,11 +13,11 @@ class TopBanner extends React.Component {
     render() {
         return (
             // TopBannerContainer
-            <div className="dsk-12 tab-12 mob-12 height-top-banner greenDiv row center">
+            <div className="dsk-12 tab-12 mob-12 height-top-banner greenDiv row justContCenter">
 
 
             {/* TopBanner */}
-            <div className="dsk-12 tab-12 mob-12 max-width center flex align">
+            <div className="dsk-12 tab-12 mob-12 max-width justContCenter flex alignItemCenter">
                 <TopBannerLeft/>
                 <TopBannerRight/>
             </div>

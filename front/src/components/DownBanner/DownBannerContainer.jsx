@@ -13,11 +13,11 @@ class DownBanner extends React.Component {
     render() {
         return (
             // DownBannerContainer
-            <div className="dsk-12 tab-12 mob-12 height-top-banner greenDiv row center bordersup">
+            <div className="dsk-12 tab-12 mob-12 height-top-banner greenDiv row justContCenter bordersup">
 
 
                 {/* DownBanner */}
-                <div className="dsk-12 tab-12 mob-12 max-width center row  align ">
+                <div className="dsk-12 tab-12 mob-12 max-width justContCenter row alignItemCenter">
 
                     <p className="texte14Bold">ⒸCopyright 2019-2020 FARMVIZ SAS</p><p className="texte14Bold padding-down"> All Rights Reserved</p> 
 

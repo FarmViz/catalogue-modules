@@ -8,7 +8,7 @@ import FooterContainer from './components/Footer/FooterContainer';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 import ErrorContainer from './components/ErrorPage/ErrorContainer';
 import BlockRes from './components/BlockRes/BlockRes';
-
+import Accordeon from './components/Catalogue Modules/Accordéon/Accordéon';
 
 class App extends React.Component {
 
@@ -17,14 +17,14 @@ class App extends React.Component {
       <>
 
 
-      
+      <Accordeon/>
 
 
-        <TopBanner />
+        {/* <TopBanner />
 
         <NavbarContainer />
 
-        <ProbeOfferContainer />
+        <ProbeOfferContainer /> */}
 
 
         {/* <Switch>
@@ -33,10 +33,10 @@ class App extends React.Component {
 
         </Switch> */}
 
-        <BlockRes/>
+        {/* <BlockRes/>
 
         <FooterContainer />
-        <DownBanner />
+        <DownBanner /> */}
 
         
       </>

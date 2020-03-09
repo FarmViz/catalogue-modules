@@ -1,6 +1,6 @@
 import React from "react";
-import './BlockModal.css';
-import '../Css/Global.css';
+import '../BlockModal/BlockModal.css';
+import '../../Css/Global.css';
 
 class BlockModal extends React.Component {
     constructor(props) {

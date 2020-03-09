@@ -37,6 +37,10 @@ ul{
   float: right;
 }
 
+.labelMenuBtn {
+  padding-right: 0.8rem;
+}
+
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{

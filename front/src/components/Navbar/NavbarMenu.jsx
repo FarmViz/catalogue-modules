@@ -13,7 +13,7 @@ class NavbarMenu extends React.Component {
             // NavbarMenu
                 <nav className="dsk-9 tab-7 mob-6 row justContFlexEnd marginLeft3Rem">
                     <input type="checkbox" id="chk" className=" marginRight_1"/>
-                    <label htmlFor="chk" className="show-menu-btn ">
+                    <label htmlFor="chk" className="show-menu-btn labelMenuBtn">
                         <i className="fas fa-bars burgercolor marginRight1rem"></i>
                     </label>
                     <ul className="menu dsk-8 NavbarMenuFontSize texte14Bold">

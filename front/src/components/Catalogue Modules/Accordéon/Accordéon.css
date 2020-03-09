@@ -1,0 +1,84 @@
+
+
+/* Start CSS of the accordion */
+
+
+/* Start CSS of the accordion */
+
+.accordion{
+    width: 100%;
+}
+
+.accordion label {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cc7e7e;
+    padding: 0 15px;
+    height: 3em;
+    line-height: .5em;
+    color: #424242;
+    cursor: pointer;
+    border-bottom: 1px solid #bdbdbd;
+    border-top: 1px solid #ffffff;
+  }
+  .accordion p {
+    color: #424242;
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    opacity: 0;
+    display: none;
+    text-align: left;
+    background-color: #fff;
+    margin: 0px;
+  }
+
+    /* Item 1 */
+  #tm:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+  input#tm {
+    display: none;
+    position: relative;
+  }
+    /* Item 1 */
+
+
+    /* Item 2 */
+  #tn:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+  input#tn {
+    display: none;
+    position: relative;
+  }
+   /* Item 2 */
+
+    
+    /* Item 3 */
+  #to:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+  input#to {
+    display: none;
+    position: relative;
+  }
+  .arrow{
+    color: #666666;
+  }
+    /* Item 3 */
+ 
+
+  .max-long{
+    max-width: 1024px;
+}
+
+
+
+  
+

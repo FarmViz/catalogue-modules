@@ -1,0 +1,25 @@
+.error{
+    height: 100vh;    
+}
+
+.b-width{
+    width: 150px;
+    
+}
+
+.size-error{
+    font-size: 60px;
+}
+
+.colorblack{
+    color: black;
+}
+
+.height-error{
+    height: 50vh;
+    align-items: flex-end;
+}
+
+.margin-error{
+    margin-top: 15px;
+}

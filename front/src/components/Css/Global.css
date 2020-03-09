@@ -139,9 +139,11 @@ body h2 {
     flex-direction: column;
 }
 
+
 .justContCenter{
   justify-content: center;
 }
+
 
 .justContLeft {
     justify-content: left;

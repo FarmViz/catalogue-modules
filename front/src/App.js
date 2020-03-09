@@ -6,8 +6,11 @@ import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
-import BlockRes from './components/BlockRes/BlockRes';
-import Carrousel from './components/Carrousel/Carrousel';
+import ErrorContainer from './components/ErrorPage/ErrorContainer';
+
+
+
+
 
 class App extends React.Component {
 
@@ -15,24 +18,29 @@ class App extends React.Component {
     return (
       <>
 
-        <TopBanner />
+
+     
+
+
+         <TopBanner />
 
         <NavbarContainer />
 
-        <ProbeOfferContainer />
+        <ProbeOfferContainer /> 
 
 
         {/* <Switch>
 
-          <Route exact path="/" component={} />
+          <Route exact path="/error" component={ErrorContainer} />
 
         </Switch> */}
 
-        <BlockRes/>
-        <Carrousel />
+
+        
+
 
         <FooterContainer />
-        <DownBanner />
+        <DownBanner /> 
 
         
       </>

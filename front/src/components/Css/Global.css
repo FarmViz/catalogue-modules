@@ -119,6 +119,10 @@ body h2 {
 .yellow{
     color:#FFFF00  ;
 }
+
+.black{
+    color: #000000;
+}
 /* ------------------------------FIN-SECTION-2------------------------------------------------*/
 
 
@@ -132,6 +136,7 @@ body h2 {
 .row {
     display:flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .column {

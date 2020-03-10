@@ -7,6 +7,8 @@ import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterContainer from './components/Footer/FooterContainer';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 import ErrorContainer from './components/ErrorPage/ErrorContainer';
+import BlockRes from './components/BlockRes/BlockRes';
+
 
 
 
@@ -19,14 +21,12 @@ class App extends React.Component {
       <>
 
 
-     
 
-
-         <TopBanner />
+        <TopBanner />
 
         <NavbarContainer />
 
-        <ProbeOfferContainer /> 
+        <ProbeOfferContainer />
 
 
         {/* <Switch>
@@ -34,13 +34,11 @@ class App extends React.Component {
           <Route exact path="/error" component={ErrorContainer} />
 
         </Switch> */}
-
-
         
-
 
         <FooterContainer />
         <DownBanner /> 
+
 
         
       </>

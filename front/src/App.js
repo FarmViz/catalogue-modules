@@ -10,13 +10,16 @@ import ErrorContainer from './components/ErrorPage/ErrorContainer';
 import BlockRes from './components/BlockRes/BlockRes';
 
 
+
+
+
+
 class App extends React.Component {
 
   render() {
     return (
       <>
 
-        
 
 
         <TopBanner />
@@ -31,11 +34,11 @@ class App extends React.Component {
           <Route exact path="/error" component={ErrorContainer} />
 
         </Switch> */}
-
-        <BlockRes/>
+        
 
         <FooterContainer />
-        <DownBanner />
+        <DownBanner /> 
+
 
         
       </>

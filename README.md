@@ -1,2 +1,2 @@
-# FarmViz Site Vitrine
+# FarmViz Catalogue Modules
 Site vitrine

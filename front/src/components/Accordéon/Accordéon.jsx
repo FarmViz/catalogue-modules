@@ -1,6 +1,6 @@
 import React from "react";
 import '../Accordéon/Accordéon.css';
-import '../../Css/Global.css';
+import '../Css/Global.css';
 
 class Accordéon extends React.Component {
     constructor(props) {

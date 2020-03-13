@@ -4,10 +4,14 @@ import TopBanner from './components/TopBanner/TopBannerContainer';
 import DownBanner from './components/DownBanner/DownBannerContainer';
 import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
-import FooterContainer from './components/Footer/FooterContainer';
+import FooterV2 from './components/Footer/FooterV2';
 import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 import ErrorContainer from './components/ErrorPage/ErrorContainer';
 import BlockRes from './components/BlockRes/BlockRes';
+import Accordéon from './components/Accordéon/Accordéon';
+import TabsSection from './components/Onglets/Tabs';
+import BlocImgLeftTxtRight from './components/ImageTextBloc/ImageLeftTextRight';
+import BlocTxtLeftImgRight from './components/ImageTextBloc/TextLeftImageRight';
 
 
 
@@ -27,6 +31,13 @@ class App extends React.Component {
         <NavbarContainer />
 
         <ProbeOfferContainer />
+        <Accordéon />
+        <BlockRes />
+        <ErrorContainer />
+        <TabsSection />
+        <BlocImgLeftTxtRight />
+        <BlocTxtLeftImgRight />
+
 
 
         {/* <Switch>
@@ -36,7 +47,7 @@ class App extends React.Component {
         </Switch> */}
         
 
-        <FooterContainer />
+        <FooterV2 />
         <DownBanner /> 
 
 

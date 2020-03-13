@@ -1,0 +1,25 @@
+.BlocImgTxt {
+    justify-content: space-around;
+    padding:20px;
+    margin: auto;
+}
+
+.ImgBlock {
+    height: 25%;
+    width:25%;
+    padding:20px; 
+}
+
+.blockTxtArticle {
+    color: black;
+}
+
+@media screen and (max-width:420px) {
+
+    .ImgBlock {
+        height: 40%;
+        width:40%;
+        margin: 0; 
+    }
+
+}

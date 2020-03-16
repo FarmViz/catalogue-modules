@@ -1,15 +1,22 @@
+/* !! feuille de style commune à TextLeftImageRight et ImageLeftTextRight !!*/
+
+/* Modifie l'alignement des blocs Image et texte dans le conteneur */
+/* Modifie le centrage du conteneur et son padding */
 .BlocImgTxt {
     justify-content: space-around;
     padding:20px;
     margin: auto;
 }
 
+
+/* Modifie la taille et le padding de l'image */
 .ImgBlock {
     height: 25%;
     width:25%;
     padding:20px; 
 }
 
+/* Modifie la couleur du titre et du texte */
 .blockTxtArticle {
     color: black;
 }

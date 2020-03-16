@@ -1,3 +1,6 @@
+// Conteneur permettant d'afficher les différents éléments de la barre de navigation du site
+
+
 import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
@@ -15,20 +18,20 @@ class NavbarContainer extends React.Component {
     
     render() {
         return (
-            // NavbarContainer
+            // Conteneur de la NavBar occupant 100% de la largeur de l'écran
             <div className="dsk-12 tab-12 mob-12 row justContCenter navbarContainer">
 
 
-                {/* NavBar */}
+                {/*Conteneur limitant la largeur du contenu de la NAvBar à 1024px*/}
                 <div className="dsk-12 tab-12 mob-12 max-width flex alignItemCenter">
 
 
-                    {/* Bloc Logo */}
+                    {/* Bloc affichant le Logo */}
 
                     <NavbarLogo />
 
 
-                    {/* {Bloc Menu- Menu Burger} */}
+                    {/* {Bloc affichant le Menu- Menu Burger} */}
 
                     <NavbarMenu />
 

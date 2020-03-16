@@ -1,25 +1,34 @@
+
+/* hauteur du conteneur */
 .error{
-    height: 100vh;    
+    height: 100vh;
 }
 
+/* largeur du bouton */
 .b-width{
     width: 150px;
     
 }
 
+/* taille police erreur */
 .size-error{
     font-size: 60px;
+    
 }
 
+/* couleur dut texte d'erreur */
 .colorblack{
     color: black;
 }
 
+
+/* hauteur du conteneur d'erreur */
 .height-error{
     height: 50vh;
     align-items: flex-end;
 }
 
+/* marge appliquée au container du bouton retour */
 .margin-error{
     margin-top: 15px;
 }

@@ -1,9 +1,10 @@
-
+/* remise à zéro du padding et des marges verticales, centrage horizontal du conteneur */
 .footerContainer {
 	padding:0;
 	margin:0 auto;
 }
 
+/* typographie et alignement du logo dans le footer */
 .footerLogo {
 	
 	font-weight: 1000;
@@ -13,23 +14,37 @@
 }
 
 
-
+/* conteneur du footer: règles de padding et de couleur de texte */
 .footer-bs {
 	padding: 60px 40px;
 	color: rgba(255,255,255,1.00);
 	
 
-	
+	/*marge haute s'applicant à tous les éléments du footer  */
 }
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
-.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+.footer-bs .footer-brand h2 { 
+	margin:0px 0px 10px; 
+}
 
+/* couleur et transparence du paragraphe situé sous le logo */
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,1); }
+
+
+/* padding et retrait des points des items des menus */
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+
+/* padding autour des items du menu des pages principales (accueil, services etc...) */
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+
+/* typo des items du menu des pages principales (accueil, services etc...) */
 .footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+
+/* typo des items du menu des pages principales (accueil, services etc...) au survol de la souris*/
 .footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+/* typo du titre du menu des pages principales (MENU) */
 .footer-bs .footer-nav h4 {
 	font-size: 11px;
 	text-transform: uppercase;
@@ -37,29 +52,49 @@
 	margin-bottom:10px;
 }
 
+/* Retrait des puces et du padding autour du menu des pages secondaires (about us, contact, etc...) */
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+
+/* Retrait des puces et du padding autour des items du menu des pages secondaires (about us, contact, etc...) */
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
+
+/* Couleur et transparence des items du menu des pages secondaires (about us, contact, etc...) */
 .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+
+/* Couleur et transparence des items du menu des pages secondaires (about us, contact, etc...) au passage de la souris */
 .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
 
+/* Retrait des puces et du padding autour des items du menu des réseaux sociaux (follow us) */
 .footer-bs .footer-social ul { list-style:none; padding:0px; }
+
+/* typo du titre du menu des réseaux sociaux (FOLLOW US) */
 .footer-bs .footer-social h4 {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
+
+/* padding autour des items du menu des réseaux sociaux (follow us) */
 .footer-bs .footer-social li { padding:5px 4px;}
+
+/* Couleur et transparence des items du menu des réseaux sociaux (FOLLOW US) */
 .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+
+/* Couleur et transparence des items du menu des réseaux sociaux (FOLLOW US) au passage de la souris */
 .footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
 
+/* typo du titre du menu newsletter  */
 .footer-bs .footer-ns h4 {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom:10px;
 }
+
+/* typo du texte du menu newsletter */
 .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
 
+/* icône enveloppe */
 .glyphicon {
     position: relative;
 	top: -6px;
@@ -78,21 +113,28 @@
 
 }
 
+/* margin titre réseaux sociaux */
 .footer-social h4 {
 	margin-bottom: 10px;
 }
+
+/* padding items réseaux sociaux */
 .followUs li {
 	padding: 5px 0;
 }
 
+/* largeur champ mail */
 .input-group {
 	width:100%;
 }
 
+/* bouton d'envoi */
 .newsButton {
 	padding:6px 0;
 }
 
+
+/* style champ e-mail */
 .newsMail {
 	width:11vw;
 	padding: 0;
@@ -103,19 +145,24 @@
 }
 
 @media (min-width: 768px) {
+
+	/* traits verticaux entre les différents blocs du footer */
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
 
 @media (max-width: 768px) {
 
+	/* padding entre la section menu et les sections follow us et newsletter*/
 	.footer-nav{
 		padding-bottom: 40px !important;
 	}
 
+	/* padding entre la section logo et la section menu*/
 	.footer-brand{
 		padding-bottom: 40px !important;
 	}
 
+	/* largeur du champ e-mail */
 	.newsMail {
 		width:25vw;
 	}
@@ -123,7 +170,16 @@
 
 @media (max-width:570px) {
 
+	/* largeur du champ e-mail */
 	.newsMail {
 		width: 45vw;
+	}
+}
+
+@media (min-width:1426px) {
+
+	/* largeur du champ e-mail */
+	.newsMail {
+		max-width:156.75px;
 	}
 }

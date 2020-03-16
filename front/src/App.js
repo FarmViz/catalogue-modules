@@ -12,6 +12,7 @@ import Accordéon from './components/Accordéon/Accordéon';
 import TabsSection from './components/Onglets/Tabs';
 import BlocImgLeftTxtRight from './components/ImageTextBloc/ImageLeftTextRight';
 import BlocTxtLeftImgRight from './components/ImageTextBloc/TextLeftImageRight';
+import Carrousel from './components/Carrousel/Carrousel';
 
 
 
@@ -34,6 +35,7 @@ class App extends React.Component {
         <Accordéon />
         <BlockRes />
         <ErrorContainer />
+        <Carrousel />
         <TabsSection />
         <BlocImgLeftTxtRight />
         <BlocTxtLeftImgRight />

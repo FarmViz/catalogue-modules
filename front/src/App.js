@@ -5,7 +5,6 @@ import DownBanner from './components/DownBanner/DownBannerContainer';
 import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterV2 from './components/Footer/FooterV2';
-import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 import ErrorContainer from './components/ErrorPage/ErrorContainer';
 import BlockRes from './components/BlockRes/BlockRes';
 import Accordéon from './components/Accordéon/Accordéon';
@@ -31,7 +30,7 @@ class App extends React.Component {
 
         <NavbarContainer />
 
-        <ProbeOfferContainer />
+        
         <Accordéon />
         <BlockRes />
         <ErrorContainer />

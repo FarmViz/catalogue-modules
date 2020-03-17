@@ -13,7 +13,7 @@ class NavbarMenu extends React.Component {
     render() {
         return (
             // Début de la section navigation
-                <nav className="dsk-9 tab-7 mob-6 row justContFlexEnd marginLeft3Rem">
+                <nav className="dsk-9 tab-9 mob-6 off-dsk-1 row navBurger">
 
                     {/* checkbox permettant l'affichage du meu burger */}
                     <input type="checkbox" id="chk" className=" marginRight_1"/>
@@ -24,11 +24,20 @@ class NavbarMenu extends React.Component {
                     </label>
 
                     {/* liste des pages accessibles par le menu */}
-                    <ul className="menu dsk-8 NavbarMenuFontSize texte14Bold">
+                    <ul className="menu dsk-8 NavbarMenuFontSize texte14Bold flexAlignCenter">
                         <li><a href="/">Accueil</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/societe">Société</a></li>
                         <li><a href="/contact">Contact</a></li>
+                        <li >
+                            <input className="navbarsearch" type="search" placeholder="Rechercher              &#x1F50D;"></input>
+                        </li>
+                        <li className="navbarsearch">
+                            <select >
+                                <option>FR</option>
+                                <option>EN</option>
+                            </select>
+                        </li>
 
                         {/* icône permettant la fermeture du menu burger */}
                         <label htmlFor="chk" className="hide-menu-btn">

@@ -1,3 +1,4 @@
+// Banière du pied de page
 
 import React from "react";
 import '../Css/Global.css';
@@ -19,6 +20,7 @@ class DownBanner extends React.Component {
                 {/* DownBanner */}
                 <div className="dsk-12 tab-12 mob-12 max-width justContCenter row alignItemCenter">
 
+                    {/* texte de la banière du pied de page */}
                     <p className="texte14Bold">ⒸCopyright 2019-2020 FARMVIZ SAS</p><p className="texte14Bold padding-down"> All Rights Reserved</p> 
 
                 </div>

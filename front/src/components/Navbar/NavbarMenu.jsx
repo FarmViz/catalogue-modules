@@ -30,7 +30,7 @@ class NavbarMenu extends React.Component {
                         <li><a href="/societe">Société</a></li>
                         <li><a href="/contact">Contact</a></li>
                         <li >
-                            <input className="navbarsearch" type="search" placeholder="Rechercher              &#x1F50D;"></input>
+                            <input className="navbarsearch" type="search" placeholder="Rechercher             &#x1F50E;"></input>
                         </li>
                         <li className="navbarsearch">
                             <select >

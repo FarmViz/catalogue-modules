@@ -1,3 +1,6 @@
+// module du conteneur de la bannière de l'en-tête du site
+
+
 import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
@@ -18,7 +21,11 @@ class TopBanner extends React.Component {
 
             {/* TopBanner */}
             <div className="dsk-12 tab-12 mob-12 max-width justContCenter flex alignItemCenter">
+
+                {/* bloc de gauche */}
                 <TopBannerLeft/>
+
+                {/* bloc de droite */}
                 <TopBannerRight/>
             </div>
 

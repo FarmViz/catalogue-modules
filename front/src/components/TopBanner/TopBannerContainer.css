@@ -1,8 +1,11 @@
+
+/* définit la hauteur de la bannière */
 .height-top-banner{
     height: 50px;
     margin: 0;
 }
 
+/* !! contrôle l'espacement entre les deux éléments de DOWNBANNER */
 .padding-down{
     padding-left: 10px;
 }

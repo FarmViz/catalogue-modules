@@ -5,13 +5,15 @@ import DownBanner from './components/DownBanner/DownBannerContainer';
 import './components/Css/Reset.css';
 import NavbarContainer from './components/Navbar/NavbarContainer';
 import FooterV2 from './components/Footer/FooterV2';
-import ProbeOfferContainer from './components/ProbeOffer/ProbeOfferContainer';
 import ErrorContainer from './components/ErrorPage/ErrorContainer';
 import BlockRes from './components/BlockRes/BlockRes';
 import Accordéon from './components/Accordéon/Accordéon';
 import TabsSection from './components/Onglets/Tabs';
 import BlocImgLeftTxtRight from './components/ImageTextBloc/ImageLeftTextRight';
 import BlocTxtLeftImgRight from './components/ImageTextBloc/TextLeftImageRight';
+import Carrousel from './components/Carrousel/Carrousel';
+import ModalDiv from './components/Modale/Modal';
+
 
 
 
@@ -27,13 +29,12 @@ class App extends React.Component {
 
 
         <TopBanner />
-
         <NavbarContainer />
-
-        <ProbeOfferContainer />
+        <ModalDiv />
         <Accordéon />
         <BlockRes />
         <ErrorContainer />
+        <Carrousel />
         <TabsSection />
         <BlocImgLeftTxtRight />
         <BlocTxtLeftImgRight />

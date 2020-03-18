@@ -1,17 +1,20 @@
-
+/* classe concernant les titres  des onglets*/
 .tab-panel__header {
-  font-family: 'Trebuchet MS';
+  font-family: 'Arial';
   font-size: 12px;
   position: relative;
   top: 1px
 }
 
+/* classe concernant le contenu des onglets */
 .tab-panel__content {
   background-color: #D5D5D5;
   border: 1px solid #9099A2;
   height: 400px;
 } 
 
+
+/* classe concernant les onglets eux-mêmes */
 .tab {
   background-color: #D5D5D5;
   border: 1px solid #9099A2;
@@ -26,14 +29,19 @@
   z-index: 0;
 }
 
+/* espacement entre les onglets */
 .tab:nth-child(n+2) {
     margin-left: -8px;
 }
+
+/* couleur du texte de l'entête de l'onglet au passage de la souris */
 
 .tab:hover {
   color: #6D7993;
 }
 
+
+/* en-tête de l'onglet choisi */
 .tab--selected {
   border-bottom: 1px solid #D5D5D5;
   color: #6D7993;

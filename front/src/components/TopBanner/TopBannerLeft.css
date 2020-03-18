@@ -1,3 +1,5 @@
+
+/* propriétés de la punchline */
 .TopBannerLeft {
     color:white;
     text-align: left;
@@ -6,6 +8,7 @@
 
 }
 
+/* taille de police de la punchline */
 .TopBannerLeftFontSize {
     
     font-size: 14px ;

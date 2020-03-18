@@ -1,3 +1,6 @@
+// 2 blocs : titre + texte + bouton dans un conteneur
+
+
 import React from "react";
 import '../Css/Global.css';
 import '../Css/Grid.css';
@@ -11,6 +14,7 @@ class BlockRes extends React.Component {
     render() {
         return (
 
+            //Bloc parent
             < div className="container-fluid fond-img max-long height-parent wrap d-flex justify separateurBlock" >
 
                 {/* <!-- --------Block enfant-------- --> */}

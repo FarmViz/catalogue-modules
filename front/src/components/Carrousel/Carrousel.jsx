@@ -1,13 +1,15 @@
+// Carousel avec titre et texte intégrés, 
+
+//!! nécessite 'Slider' de 'react-animated-slider' !!
+
 import React , {Component} from 'react';
-import { render } from 'react-dom';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-// import 'normalize.css/normalize.css';
 import './Carrousel.css';
 import '../Css/Global.css';
 import '../Css/Grid.css';
 
-
+//  Tableau comportant le contenu du carousel
 const content = [
     {
         title: 'Vulputate Mollis Ultricies ',
@@ -46,24 +48,43 @@ const content = [
     render(){
 
         return(
-
+            // conteneur parent limitant la largeur à 1024px en version bureau
             <div className="max-width dsk-12 tab-12 mob-12">
-            
+
+            {/* div contenant le titre du carousel */}
             <div className="wrapper ">
-                <h1 className="CarrouselTitle">Titre Carrousel</h1>
-                
+
+                {/* titre du carousel */}
+                <h1 className="CarrouselTitle">Titre Carousel</h1>
+            {/* fin div contenant le titre du carousel */}
             </div>
+
+            {/* le carousel en lui-même */}
             <Slider className="slider-wrapper">
+
+                {/* fonction parcourant le tableau des données affichées dans le carousel */}
                 {content.map((item, index) => (
+
+                    // div affichant chaque image dont le lien figure dans le tableau
                     <div
                         key={index}
                         className="slider-content"
                         style={{ background: `url('${item.image}') no-repeat center center` }}
                     >
+
+                        {/* div affichant le titre et le texte apparaissant sur l'image */}
                         <div className="inner">
+
+                            {/* le titre */}
                             <h1>{item.title}</h1>
+
+                            {/* le sous-titre */}
                             <h2>{item.subtitle}</h2>
+
+                            {/* le texte descriptif */}
                             <p>{item.description}</p>
+
+                            {/* le call to action */}
                             <button>{item.button}</button>
                         </div>
 

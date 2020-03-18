@@ -70,6 +70,7 @@ function ModalDiv() {
         contentLabel="Example Modal"
 
       >
+        {/* croix pour fermer la modale */}
         <div className="dsk-12 tab-12 mob-12 row justContFlexEnd">
         <button className="closeModalCross" onClick={closeModal}><i>&#x274C;</i></button>
         </div>

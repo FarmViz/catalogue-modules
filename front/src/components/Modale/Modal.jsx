@@ -70,8 +70,12 @@ function ModalDiv() {
         contentLabel="Example Modal"
 
       >
+        <div className="dsk-12 tab-12 mob-12 row justContFlexEnd">
+        <button className="closeModalCross" onClick={closeModal}><i>&#x274C;</i></button>
+        </div>
         {/* div englobant le contenu de la modale pour centrer le contenu */}
         <div className="column justContCenter alignItemCenter marginTopBottom1rem">
+        
           {/* Titre de la modale */}
           <h2 className="marginTopBottom1rem"ref={_subtitle => (subtitle = _subtitle)}>Hello</h2>
 

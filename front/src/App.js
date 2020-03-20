@@ -13,6 +13,7 @@ import BlocImgLeftTxtRight from './components/ImageTextBloc/ImageLeftTextRight';
 import BlocTxtLeftImgRight from './components/ImageTextBloc/TextLeftImageRight';
 import Carrousel from './components/Carrousel/Carrousel';
 import ModalDiv from './components/Modale/Modal';
+import ContactBlock from './components/ContactBlock/ContactBlock';
 
 
 
@@ -38,6 +39,7 @@ class App extends React.Component {
         <TabsSection />
         <BlocImgLeftTxtRight />
         <BlocTxtLeftImgRight />
+        <ContactBlock />
 
 
 

@@ -1,0 +1,62 @@
+.contactContainer {
+    background-image: url(http://www.maillard-developpement.com/content/galleries/realisations/case-cereales-a-plat.jpg);
+    opacity: 0.58;
+    color: #FFFF00;
+
+}
+
+.contactTextContainer {
+    padding-right: 6vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    margin: auto 0;
+    background-color: rgba(0, 0, 0, 0.9 );
+}
+
+.contactContainer h4, h1, p {
+    padding-bottom: 20px;
+    color: #FFFF00;
+}
+.contactFormContainer {
+    padding-left: 6vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color: rgba(0, 0, 0, 0.9 );
+}
+
+.contactNameAndMailContainer {
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.contactFormContainer form input {
+    margin-bottom: 20px;
+}
+
+.contactFormContainer textarea {
+    height: 20vh;
+}
+
+@media screen and (max-width:1023px) {
+
+    .contactContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contactTextContainer, .contactFormContainer {
+        align-items: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .contactFormContainer form {
+        align-items: center;
+
+    }
+
+    .contactNameAndMailContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -171,6 +171,9 @@ body h2 {
     justify-items: flex-end;
 }
 
+.justItemCenter {
+    justify-items: center;
+}
 
 
 .flexAlignCenter {

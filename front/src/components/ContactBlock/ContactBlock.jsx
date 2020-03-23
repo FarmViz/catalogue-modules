@@ -18,18 +18,19 @@ class ContactBlock extends Component {
             lastname: '',
             email: '',
             description: '',
-            message: '',
+            object: '',
             isSent: false,
             loading: false,
             formErrors: {
                 email: '',
                 lastname: '',
                 description: '',
+                object: '',
             },
             lastnamevalid: false,
             emailvalid: false,
-            // descriptionvalid: false,
-
+            descriptionvalid: false,
+            objectvalid: false,
             formvalid: false,
             captcha: false,
             contactData: [],
@@ -50,7 +51,8 @@ class ContactBlock extends Component {
         let fieldValidationErrors = this.state.formErrors;
         let emailvalid = this.state.emailvalid;
         let lastnamevalid = this.state.lastnamevalid;
-        // let descriptionvalid = this.state.descriptionvalid;
+        let descriptionvalid = this.state.descriptionvalid;
+        let objectvalid = this.state.objectvalid;
 
         switch (fieldname) {
             case 'lastname':
@@ -66,10 +68,18 @@ class ContactBlock extends Component {
                 fieldValidationErrors.email = emailvalid ? '' : '* email non valide.';
                 break;
 
-            // case 'description':
-            //     descriptionvalid = value.length > 0;
-            //     fieldValidationErrors.description = descriptionvalid ? '' : '* Champ requis.';
-            //     break;
+            case 'description':
+                descriptionvalid = value.length > 0;
+                fieldValidationErrors.description = descriptionvalid ? '' : '* Champ requis.';
+                break;
+
+            case 'object':
+                objectvalid = value.length > 0;
+
+                fieldValidationErrors.object = objectvalid
+                    ? ''
+                    : '* Champ requis.';
+                break;
 
             default:
                 break;
@@ -79,7 +89,8 @@ class ContactBlock extends Component {
                 formErrors: fieldValidationErrors,
                 emailvalid: emailvalid,
                 lastnamevalid: lastnamevalid,
-                // description: descriptionvalid,
+                descriptionvalid: descriptionvalid,
+                objectvalid: objectvalid,
             },
             this.validateForm
         );
@@ -90,8 +101,9 @@ class ContactBlock extends Component {
             formvalid:
                 this.state.emailvalid &&
                 this.state.lastnamevalid &&
-                this.state.descriptionvalid
-                
+                this.state.descriptionvalid &&
+                this.state.objectvalid
+
         });
     }
 
@@ -106,13 +118,17 @@ class ContactBlock extends Component {
             ? ''
             : '* Champ requis.';
 
+        fieldValidationError.object = this.state.objectvalid
+            ? ''
+            : '* Champ requis.';
+
         fieldValidationError.email = this.state.emailvalid
             ? ''
             : '* email non valide.';
 
-        // fieldValidationError.description = this.state.descriptionvalid
-        //     ? ''
-        //     : 'Votre message est vide.';
+        fieldValidationError.description = this.state.descriptionvalid
+            ? ''
+            : 'Votre message est vide.';
 
 
 
@@ -134,9 +150,10 @@ class ContactBlock extends Component {
         if (
             this.state.lastnamevalid &&
             this.state.emailvalid &&
-            this.state.descriptionvalid 
+            this.state.objectvalid &&
+            this.state.descriptionvalid
         ) {
-            const { lastname, email,description} = this.state;
+            const { lastname, email, description, object } = this.state;
 
             if (this.state.captcha) {
                 this.setState({ loading: true });
@@ -149,6 +166,7 @@ class ContactBlock extends Component {
                         lastname: lastname,
                         email: email,
                         description: description,
+                        object: object,
                     })
                 }).then(res => {
                     if (res.ok) {
@@ -165,8 +183,10 @@ class ContactBlock extends Component {
                         this.setState({ captcha: false });
                         this.setState({ lastname: '' });
                         this.setState({ email: '' });
-                        this.setState({ description: ''});
-                        console.log('setState reset:' + {lastname}, {email}, {description})
+                        this.setState({ description: '' });
+                        this.setState({ object: '' });
+
+
 
                         return res.json();
                     } else {
@@ -187,7 +207,7 @@ class ContactBlock extends Component {
 
     render() {
 
-        const { lastname, email, description } = this.state;
+        const { lastname, email, description, object } = this.state;
 
         return (
 
@@ -223,14 +243,21 @@ class ContactBlock extends Component {
                                     Email{''} <span>{this.state.formErrors.email}</span>
                                 </div>
                                 <input
-                                    type="mail"
+                                    type="email"
                                     name="email"
                                     value={email}
                                     onChange={this.handleChangeContact} />
                             </div>
+
                         </div>
                         <label>Sujet de votre message</label>
-                        <input className="tab-7 mob-10" type="text" name="subject" />
+                        <input
+                            type="text"
+                            name="object"
+                            value={object}
+                            onChange={this.handleChangeContact}
+                            className="tab-7 mob-10" />
+
                         <div className="inputText font mt-2">
                             Message{' '}
                             <span>{this.state.formErrors.description}</span>
@@ -247,12 +274,13 @@ class ContactBlock extends Component {
                                     : 'Envoyer'
                             } />
 
-
-                        <Recaptcha
-                            ref={ref => (this.recaptcha = ref)}
-                            sitekey="6LfSX9YUAAAAAHGi5gUy5NetwOCc0SQe_1YBK8vC"
-                            onResolved={this.onResolved}
-                        />
+                        <div className="Captcha">
+                            <Recaptcha
+                                ref={ref => (this.recaptcha = ref)}
+                                sitekey="6LfSX9YUAAAAAHGi5gUy5NetwOCc0SQe_1YBK8vC"
+                                onResolved={this.onResolved}
+                            />
+                        </div>
 
                         <div
                             className={

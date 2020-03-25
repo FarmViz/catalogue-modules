@@ -23,7 +23,7 @@ class Accordéon extends React.Component {
                     <div className="accordion">
 
                         {/* titre de la rubrique numéro 1 */}
-                        <label for="tm" className="accordionitem"><h2>Item 1 </h2></label>
+                        <label htmlFor="tm" className="accordionitem"><h2>Item 1 </h2></label>
 
                         {/* la checkbox permet de faire apparaître le contenu de la rubrique */}
                         <input type="checkbox" id="tm" />
@@ -37,7 +37,7 @@ class Accordéon extends React.Component {
                     <div className="accordion">
 
                         {/* titre de la rubrique numéro 2 */}
-                        <label for="tn" className="accordionitem"><h2>Item 2 </h2></label>
+                        <label htmlFor="tn" className="accordionitem"><h2>Item 2 </h2></label>
 
                         {/* la checkbox permet de faire apparaître le contenu de la rubrique */}
                         <input type="checkbox" id="tn" />
@@ -51,7 +51,7 @@ class Accordéon extends React.Component {
                     <div className="accordion">
 
                         {/* titre de la rubrique numéro 3 */}
-                        <label for="to" className="accordionitem"><h2>Item 3 </h2></label>
+                        <label htmlFor="to" className="accordionitem"><h2>Item 3 </h2></label>
 
                         {/* la checkbox permet de faire apparaître le contenu de la rubrique */}
                         <input type="checkbox" id="to" />

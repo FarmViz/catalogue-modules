@@ -75,6 +75,9 @@ body h2 {
 .graisse900{
     font-weight: 900;
 }
+.textAlignCenter {
+    text-align: center;
+}
 /* ------------------------------FIN-SECTION-1------------------------------------------------*/
 
 
@@ -196,8 +199,8 @@ body h2 {
 }
 
 .separateurBlock{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 

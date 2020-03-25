@@ -54,7 +54,7 @@ function ModalDiv() {
   return (
 
     // conteneur du bouton permettant d'ouvrir la modale
-    <div className="dsk-6 tab-12 mob-12 max-width row justContCenter  blueDiv">
+    <div className="dsk-6 tab-12 mob-12 max-width row justContCenter  blueDiv separateurBlock">
 
       {/* bouton pour ouvrir la modale */}
       <button onClick={openModal}>Open Modal</button>

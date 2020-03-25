@@ -16,12 +16,12 @@ router.get('/newsletter', (req, res) => {
             if (err) {
                 console.log('Dommage!');
             } else {
-                console.log('Table newsletter recupéré avec succés');
+                console.log('Table newsletter recupérée avec succès');
                 res.json(results);
             }
         });
 });
-// selection d'une newsletter suivant id
+// sélection d'une newsletter suivant id
 router.get("/newsletter/:id", (req, res) => {
     const idNewsletter = parseInt(req.params.id);
     const sql = "SELECT * FROM newsletters WHERE id = ? ";
@@ -36,7 +36,7 @@ router.get("/newsletter/:id", (req, res) => {
     });
 });
 
-//creation d'une newsletter
+//création d'une newsletter
 router.post("/newsletter", (req, res) => {
     const newsletter = req.body;
     const sql = `INSERT INTO newsletters (

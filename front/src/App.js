@@ -14,6 +14,10 @@ import BlocTxtLeftImgRight from './components/ImageTextBloc/TextLeftImageRight';
 import Carrousel from './components/Carrousel/Carrousel';
 import ModalDiv from './components/Modale/Modal';
 import ContactBlock from './components/ContactBlock/ContactBlock';
+import NewsLetterSuscribing from './components/NewsLetterSuscribing/NewsLetterSuscribing';
+import RssReader from './components/RssReader/RssReader';
+
+
 
 
 
@@ -31,6 +35,8 @@ class App extends React.Component {
 
         <TopBanner />
         <NavbarContainer />
+        <RssReader />
+        <NewsLetterSuscribing />
         <ModalDiv />
         <Accordéon />
         <BlockRes />
